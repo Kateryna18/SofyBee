@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Product" })
+  <body>
+    @@include('html/header.html', {})
+    <main class="main-general product-page">
+      <div class="product__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./catalog.html">Quiet Books</a>
+            </li>
+            <li>
+              <a href="./product.html">Quiet book per bambini</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="product-images">
+        <div class="swiper swiper__six">
+          <div class="swiper-wrapper swiper-wrapper__six">
+            <div class="swiper-slide swiper-slide__six">
+              <div class="product-images__img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="book with fox"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide__six">
+              <div class="product-images__img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="book with fox"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide__six">
+              <div class="product-images__img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="book with fox"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide__six">
+              <div class="product-images__img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="book with fox"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide__six">
+              <div class="product-images__img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="book with fox"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-six__nav-buttons">
+            <div class="swiper-button-prev swiper-button-prev__six"></div>
+          <div class="swiper-button-next swiper-button-next__six"></div>
+          </div>
+        </div>
+      </section>
+      <section class="product-info">
+        <div class="container product-info__container">
+          <div class="product-info__left-block">
+            <div class="product-info__characteristics">
+              <div class="product-info__characteristics-head">
+                <div class="product-info__characteristics-name">
+                  <h2 class="section-title product-info__characteristics-title">
+                    Libro sensoriale tascabile a tema trasporti "Andiamo!"
+                  </h2>
+                  <div class="product-info__characteristics-chips">
+                    <div
+                      class="chip chip--red product-info__characteristics-chip"
+                    >
+                      -17%
+                    </div>
+                    <div
+                      class="chip chip--blue product-info__characteristics-chip"
+                    >
+                      Popular
+                    </div>
+                  </div>
+                </div>
+                <div class="product-info__characteristics-price-rating">
+                  <div class="product-info__characteristics-price head">
+                    <p class="product-info__characteristics-price-current">
+                      € 99
+                    </p>
+                    <p class="product-info__characteristics-price-previous">
+                      € 108
+                    </p>
+                  </div>
+                  <div class="product-info__characteristics-feedback">
+                    @@include('html/rate.html', {"value":"28"})
+                  </div>
+                </div>
+              </div>
+              <div class="product-info__characteristics-main">
+                <div class="product-info__characteristics-date">
+                  <p class="product-info__characteristics-text">
+                    Il libro sensoriale ovvero il Quiet Book in questione è
+                    composto da 6 pagine attività interattive. La grandezza del
+                    libro è studiata appositamente per le piccole manine dei
+                    bambini per essere maneggevole e confortevole nel passare da
+                    una pagine all'altra. Tale libro sensoriale può essere
+                    proposto ai Vostri figli dai 12/14 mesi ed è perfettamente
+                    portatile ovunque Vi serva. Lavabile con una pezza bagnata
+                    in acqua tiepida e con poco sapone non aggressivo.
+                  </p>
+                  <div class="product-info__characteristics-value">
+                    <div class="product-info__characteristics-item">
+                      <p class="product-info__characteristics-item-name">
+                        Dimmension
+                      </p>
+                      <div
+                        class="product-info__characteristics-item-decor"
+                      ></div>
+                      <p class="product-info__characteristics-item-name value">
+                        13x13 cm
+                      </p>
+                    </div>
+                    <div class="product-info__characteristics-item">
+                      <p class="product-info__characteristics-item-name">
+                        Colore
+                      </p>
+                      <div
+                        class="product-info__characteristics-item-decor"
+                      ></div>
+                      <p class="product-info__characteristics-item-name value">
+                        Medium
+                      </p>
+                    </div>
+                    <div class="product-info__characteristics-item">
+                      <p class="product-info__characteristics-item-name">
+                        Pagine
+                      </p>
+                      <div
+                        class="product-info__characteristics-item-decor"
+                      ></div>
+                      <p class="product-info__characteristics-item-name value">
+                        6 Facciate attività
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="product-info__characteristics-form characteristics-form"
+                >
+                  <h3 class="characteristics-form__title">
+                    Add a personalized name to your book
+                  </h3>
+                  <div class="characteristics-form__field-block">
+                    <label for="nameBook" class="characteristics-form__label"
+                      >Add personalization to your book. Additional fees may
+                      apply for additions.</label
+                    >
+                    <div class="characteristics-form__input-block">
+                      <input
+                        type="text"
+                        name=""
+                        id="nameBook"
+                        class="characteristics-form__input"
+                        placeholder="Write on the book"
+                      />
+                      <button
+                        type="button"
+                        class="characteristics-form__button"
+                      >
+                        <div class="characteristics-form-button__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#plus-white"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="characteristics-form__result-box">
+                      <p class="characteristics-form__result-price">+ €0</p>
+                      <p class="characteristics-form__result-text">
+                        The amount will be added to the total cost of the book
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="characteristics-form__order-block">
+                  <div class="characteristics-form__order-result">
+                    <div class="characteristics-form__order-count">
+                    <div class="count-block">
+                      <button
+                        type="button"
+                        class="count-block__button count-block__button-minus"
+                      >
+                        <div class="count-block-button__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#minus"></use>
+                          </svg>
+                        </div>
+                      </button>
+                      <p class="count-block__value">1</p>
+                      <button
+                        type="button"
+                        class="count-block__button count-block__button-plus"
+                      >
+                        <div class="count-block-button__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#plus"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                    <div class="product-info__characteristics-price main">
+                      <p class="product-info__characteristics-price-current">
+                        € 99
+                      </p>
+                      <p class="product-info__characteristics-price-previous">
+                        € 108
+                      </p>
+                    </div>
+                  </div>
+                  <div class="characteristics-form__order-button-block">
+                    <button type="button" class="button-link button-link--icon">
+                      <div class="button-link__icon-box icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#bag-add-white"></use>
+                        </svg>
+                      </div>
+                      Aggiungi al carrello
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info__banner">
+              <div class="quiet-books__banner">
+                <div class="quiet-books__banner-img">
+                  <img
+                    src="./img/blog/blog-img1.png"
+                    alt="quiet books page banner"
+                  />
+                </div>
+                <div class="block-gradient"></div>
+                <div class="quiet-books__banner-content">
+                  <h3 class="quiet-books__banner-title">
+                    Create your own book as you wish.
+                  </h3>
+                  <p class="quiet-books__banner-text">
+                    A convenient designer will allow you to create your own
+                    content, personalize the book for your child, and fill the
+                    book with all the desired material.
+                  </p>
+                  <div class="quiet-books__banner-button-link">
+                    <a href="#" class="button-link button-link--icon">
+                      Quiet Book Personalizzati
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info__description">
+              <div class="product-info__video">
+                <div class="product-info__video-head">
+                  <h3 class="product-info__video-title">Video</h3>
+                  <p class="product-info__video-text">
+                    It's better to watch a video once than to read about our
+                    product
+                  </p>
+                </div>
+                <div class="product-info__videos-block">
+                  <div class="product-info__video-content">
+                    <a class="product-info__video-player">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gRogLBrWjLw?si=zy0YQj_Nh4lKFWl_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </a>
+                    <p class="product-info__video-description">
+                      What are our books made of? We'll tell you in 3 minutes
+                    </p>
+                  </div>
+                  <div class="product-info__video-content">
+                    <a class="product-info__video-player">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aSRfAio8p10?si=_wxHQdxSEIIFd1YV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </a>
+                    <p class="product-info__video-description">
+                      Review of a book for a baby from 5 months
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-info__description-block">
+                <div class="product-info__description-item">
+                  <h3 class="product-info__description-title">About</h3>
+                  <p class="product-info__description-text">
+                    Il Quiet Book, Busy Book o Activity Book (noto anche come il
+                    libro tattile, libro in feltro, libro sensoriale, libro di
+                    sensazione, Montessori Book, libro tranquillo, libro
+                    silenzioso, libro attività, libro interattivo, libro tattile
+                    educativo o il libro occupato ) promuove lo sviluppo delle
+                    capacità motorie, della creatività, immaginazione e del
+                    pensiero logico del bambino. <p class="product-info__br"></p>Il libro sensoriale è un modo
+                    sano e stimolante di giocare in sintonia e autonomia. <p class="product-info__br"></p>Il
+                    libro tattile è un modo diverso per imparare e sviluppare
+                    tatto, vista e udito. <p class="product-info__br"></p>Il libro attività è detto anche Quiet
+                    Book proprio perché favorisce la concentrazione e un modo di
+                    giocare pacato e analitico, adatto anche a bambini affetti
+                    da incapacità motorie e altre.
+                  </p>
+                </div>
+                <div class="product-info__description-item">
+                  <h3 class="product-info__description-title">Subhead</h3>
+                  <p class="product-info__description-text">
+                    Al suo interno ogni pagina è dedicata ad una attività
+                    differente, dalle più semplici associazioni di forme e
+                    colori a giochi di intrecci e allacciature, da elementi
+                    sonori e di testure diverse ai conteggi e associazioni. Le
+                    pagine sono rinforzate e rese rigide per essere più
+                    maneggevoli. <p class="product-info__br"></p>Ogni singola attività in un libro sensoriale è
+                    disegnata a mano, studiata e progettata in base alle fasce
+                    d'età e sviluppo motorio dei bambini ed è stata testata ed
+                    approvata direttamente dalla nostra piccola prole
+                    (3mesi-5anni)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-info__rigth-block">
+            <div class="quiet-books__banner right-block">
+              <div class="quiet-books__banner-img product-banner">
+                <img
+                  src="./img/blog/blog-img1.png"
+                  alt="quiet books page banner"
+                />
+              </div>
+              <div class="block-gradient product-banner"></div>
+              <div class="quiet-books__banner-content right-block product-banner">
+                <h3 class="quiet-books__banner-title">
+                  Create your own book as you wish.
+                </h3>
+                <p class="quiet-books__banner-text">
+                  A convenient designer will allow you to create your own
+                  content, personalize the book for your child, and fill the
+                  book with all the desired material.
+                </p>
+                <div class="quiet-books__banner-button-link">
+                  <a href="#" class="button-link button-link--icon">
+                    Quiet Book Personalizzati
+                  </a>
+                </div>
+              </div>
+            </div>
+              <div class="product__politics product-info__politics-block right-block">
+                <h3 class="product__politics-title">Politica del prodotto</h3>
+                <div class="product__politics-content">
+                    <div class="product__politics-item">
+                        <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#shield-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Protezione dell'acquirente</p>
+                    </div>
+                    <div class="product__politics-item">
+                        <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#cashComeback-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Rimborso completo se non ricevi il tuo ordine</p>
+                    </div>
+                    <div class="product__politics-item">
+                          <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#backProduct-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Si accettano resi se il prodotto non corrisponde alla descrizione</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product-feedbacks">
+        <div class="container product-feedbacks__container">
+            <div class="product-feedbacks__block">
+                <div class="product-feedbacks__head">
+                    <h3 class="product-feedbacks__head-title">Feedbacks</h3>
+                    <div class="product-feedbacks__head-rating">
+                        @@include('html/rate.html', { "value":"" })
+                        <p class="product-feedbacks__head-rating-count">28 ratings</p>
+                    </div>
+                </div>
+                <div class="product-feedbacks__catalog-block">
+                    <ul class="product-feedbacks__list">
+                        <li class="product-feedbacks__item">
+                            <div class="product-feedbacks__item-head">
+                                <div class="product-feedbacks__item-date">
+                                    <div class="product-feedbacks__item-avatar"><img src="./img/product/feedbacks/avatar.png" alt="avatar"></div>
+                                    <p class="product-feedbacks__item-mail">m***@gmail.com</p>
+                                </div>
+                                <div class="product-feedbacks__item-rate">
+                                    @@include('html/rate.html', { "value":"" })
+                                </div>
+                            </div>
+                            <p class="product-feedbacks__item-feedback">
+                                Il libro "Il mio primo libro dei colori" è un ottimo strumento per stimolare la vista e la curiosità dei bambini dai 5 mesi in su. Il libro è composto da 10 pagine cartonate, ognuna delle quali presenta un colore diverso. Le pagine sono ricche di immagini e di dettagli, che catturano l'attenzione del bambino.
+                                <span></span>
+                            </p>
+                        </li>
+                        <li class="product-feedbacks__item">
+                            <div class="product-feedbacks__item-head">
+                                <div class="product-feedbacks__item-date">
+                                    <div class="product-feedbacks__item-avatar"><img src="./img/product/feedbacks/avatar.png" alt="avatar"></div>
+                                    <p class="product-feedbacks__item-mail">m***@gmail.com</p>
+                                </div>
+                                <div class="product-feedbacks__item-rate">
+                                    @@include('html/rate.html', { "value":"" })
+                                </div>
+                            </div>
+                            <p class="product-feedbacks__item-feedback">
+                                Il libro "Il mio primo libro dei colori" è un ottimo strumento per stimolare la vista e la curiosità dei bambini dai 5 mesi in su. Il libro è composto da 10 pagine cartonate, ognuna delle quali presenta un colore diverso. Le pagine sono ricche di immagini e di dettagli, che catturano l'attenzione del bambino.
+                                <span></span>
+                            </p>
+                        </li>
+                        <li class="product-feedbacks__item">
+                            <div class="product-feedbacks__item-head">
+                                <div class="product-feedbacks__item-date">
+                                    <div class="product-feedbacks__item-avatar"><img src="./img/product/feedbacks/avatar.png" alt="avatar"></div>
+                                    <p class="product-feedbacks__item-mail">m***@gmail.com</p>
+                                </div>
+                                <div class="product-feedbacks__item-rate">
+                                    @@include('html/rate.html', { "value":"" })
+                                </div>
+                            </div>
+                            <p class="product-feedbacks__item-feedback">
+                                Il libro "Il mio primo libro dei colori" è un ottimo strumento per stimolare la vista e la curiosità dei bambini dai 5 mesi in su. Il libro è composto da 10 pagine cartonate, ognuna delle quali presenta un colore diverso. Le pagine sono ricche di immagini e di dettagli, che catturano l'attenzione del bambino.
+                                <span></span>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="product-feedbacks__list-pagination">
+                        @@include('html/pagination.html')
+                    </div>
+                </div>
+            </div>
+            <div class="product-nofeedbacks">
+              <h3 class="product-feedbacks__head-title">Feedbacks</h3>
+              <div class="product-nofeedbacks__content">
+                <div class="product-nofeedbacks__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#bee-nofeedback"></use>
+                  </svg>
+                </div>
+                <p class="product-nofeedbacks__result-review">0 reviews</p>
+                <p class="product-nofeedbacks__content-info">Non ci sono ancora recensioni per questo prodotto. Sii il primo a scrivere una recensione!</p>
+              </div>
+            </div>
+            <div class="product-feedbacks__form-block">
+                <form class="product-feedbacks__form">
+                    <div class="product-feedbacks__form-head">
+                        <h3 class="product-feedbacks__form-title">Add Feedback</h3>
+                        <p class="product-feedbacks__form-text">Do you like the product? Leave a review for other users.</p>
+                    </div>
+                    <div class="product-feedbacks__field-block product-feedbacks__form-mail">
+                      <div class="input-group">
+                        <label for="feedbacksMail" class="input-group__label">Your mail*</label>
+                        <div class="input-group__input-container">
+                            <input type="mail" name="mail" id="feedbacksMail" class="input-group__input white left-padding large" placeholder="Enter your email address">
+                            <div class="input-group__icon left icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#mail"></use>
+                                </svg>
+                              </div>
+                        </div>
+                        <p class="input-group__helper-text"></p>
+                      </div>
+                    </div>
+                    <div class="product-feedbacks__field-block product-feedbacks__form-review">
+                        <label for="feedbacksReview" class="product-feedbacks__form-label">Write a review</label>
+                        <textarea name="review" id="feedbacksReview" cols="30" rows="10" class="product-feedbacks__form-input review" placeholder="Your review about product"></textarea>
+                    </div>
+                    <div class="product-feedbacks__field-block product-feedbacks__form-rating">
+                        <label for="feedbacksRating" class="product-feedbacks__form-label">Your rating*</label>
+                        <div class="product-feedbacks__form-rating-block">
+                          <div class="rate">
+                            <div class="rate__stars">
+                              <div class="rate-stars__icon icon-box" data-index="0">
+                                <svg class="feedback__icon-active">
+                                  <use href="./img/icons/icons.svg#star-rate-yellow"></use>
+                                </svg>
+                                <svg class="feedback__icon-inactive">
+                                  <use href="./img/icons/icons.svg#star-rate-grey"></use>
+                                </svg>
+                              </div>
+                              <div class="rate-stars__icon icon-box" data-index="1">
+                                <svg class="feedback__icon-active">
+                                  <use href="./img/icons/icons.svg#star-rate-yellow"></use>
+                                </svg>
+                                <svg class="feedback__icon-inactive">
+                                  <use href="./img/icons/icons.svg#star-rate-grey"></use>
+                                </svg>
+                              </div>
+                              <div class="rate-stars__icon icon-box" data-index="2">
+                                <svg class="feedback__icon-active">
+                                  <use href="./img/icons/icons.svg#star-rate-yellow"></use>
+                                </svg>
+                                <svg class="feedback__icon-inactive">
+                                  <use href="./img/icons/icons.svg#star-rate-grey"></use>
+                                </svg>
+                              </div>
+                              <div class="rate-stars__icon icon-box" data-index="3">
+                                <svg class="feedback__icon-active">
+                                  <use href="./img/icons/icons.svg#star-rate-yellow"></use>
+                                </svg>
+                                <svg class="feedback__icon-inactive">
+                                  <use href="./img/icons/icons.svg#star-rate-grey"></use>
+                                </svg>
+                              </div>
+                              <div class="rate-stars__icon icon-box" data-index="4">
+                                <svg class="feedback__icon-active">
+                                  <use href="./img/icons/icons.svg#star-rate-yellow"></use>
+                                </svg>
+                                <svg class="feedback__icon-inactive">
+                                  <use href="./img/icons/icons.svg#star-rate-grey"></use>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="product-feedbacks__form-button">
+                        <button type="button" class="button-link button-link--icon">
+                            Send Message
+                          </button>
+                    </div>
+                </form>
+            </div>
+            <div class="product__politics product-feedbacks__politics">
+                <h3 class="product__politics-title">Politica del prodotto</h3>
+                <div class="product__politics-content">
+                    <div class="product__politics-item">
+                        <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#shield-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Protezione dell'acquirente</p>
+                    </div>
+                    <div class="product__politics-item">
+                        <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#cashComeback-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Rimborso completo se non ricevi il tuo ordine</p>
+                    </div>
+                    <div class="product__politics-item">
+                          <div class="product-politics__icon-box">
+                            <div class="product-politics__icon-box-bg">
+                            <div class="product-politics__icon icon-box">
+                                <svg>
+                                  <use href="./img/icons/icons.svg#backProduct-white"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                          <p class="product__politics-description">Si accettano resi se il prodotto non corrisponde alla descrizione</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="similar-products">
+        <div class="container similar-products__container">
+            <h2 class="section-title similar-products__title">Or see similar products</h2>
+            <div class="swiper swiper__seven">
+              <div class="swiper-wrapper swiper-wrapper__seven">
+                <div class="swiper-slide swiper-slide__seven">
+                  <div class="similar-product__card">
+                    <a href="./product.html">
+                    <div class="card">
+                      <div class="card__img-block">
+                        <div class="card__img-box">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">New</div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info">
+                        <h3 class="card__info-title">Quiet book per bambini</h3>
+                        <p class="card__info-description">6 Facciate attività</p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">€ 108</p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <a href="#" class="button-link card__button-link"
+                          >Add to cart</a
+                        >
+                      </div>
+                  </div>
+                </a>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide__seven">
+                  <div class="similar-product__card">
+                    <a href="./product.html">
+                    <div class="card">
+                      <div class="card__img-block">
+                        <div class="card__img-box">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">New</div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info">
+                        <h3 class="card__info-title">Quiet book per bambini</h3>
+                        <p class="card__info-description">6 Facciate attività</p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">€ 108</p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <a href="#" class="button-link card__button-link"
+                          >Add to cart</a
+                        >
+                      </div>
+                  </div>
+                </a>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide__seven">
+                  <div class="similar-product__card">
+                    <a href="./product.html">
+                    <div class="card">
+                      <div class="card__img-block">
+                        <div class="card__img-box">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">New</div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info">
+                        <h3 class="card__info-title">Quiet book per bambini</h3>
+                        <p class="card__info-description">6 Facciate attività</p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">€ 108</p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <a href="#" class="button-link card__button-link"
+                          >Add to cart</a
+                        >
+                      </div>
+                  </div>
+                </a>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide__seven">
+                  <div class="similar-product__card">
+                    <a href="./product.html">
+                    <div class="card">
+                      <div class="card__img-block">
+                        <div class="card__img-box">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">New</div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info">
+                        <h3 class="card__info-title">Quiet book per bambini</h3>
+                        <p class="card__info-description">6 Facciate attività</p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">€ 108</p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <a href="#" class="button-link card__button-link"
+                          >Add to cart</a
+                        >
+                      </div>
+                  </div>
+                </a>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide__seven">
+                  <div class="similar-product__card">
+                    <a href="./product.html">
+                    <div class="card">
+                      <div class="card__img-block">
+                        <div class="card__img-box">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">New</div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info">
+                        <h3 class="card__info-title">Quiet book per bambini</h3>
+                        <p class="card__info-description">6 Facciate attività</p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">€ 108</p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <a href="#" class="button-link card__button-link"
+                          >Add to cart</a
+                        >
+                      </div>
+                  </div>
+                </a>
+                  </div>
+                </div>
+              </div>
+              <div class="similar-products-swiper__button-nav">
+                <div class="swiper-button-prev swiper-button-prev__seven"></div>
+                <div class="swiper-button-next swiper-button-next__seven"></div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/mobile-search-block.html', {})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

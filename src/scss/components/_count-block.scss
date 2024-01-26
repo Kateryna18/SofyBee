@@ -1,0 +1,22 @@
+.count-block {
+    display: flex;
+    height: 48px;
+    padding: 8px 20px;
+    align-items: center;
+    gap: 25px;
+    border-radius: 60px;
+    background-color: var(--bg-blue-white);
+  
+    & > .count-block__value {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: calc(24.59 / 18);
+    }
+  }
+  .count-block__button {
+    background-color: transparent;
+  }
+  .count-block-button__icon {
+    width: 20px;
+    height: 20px;
+  }

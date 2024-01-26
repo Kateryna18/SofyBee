@@ -1,0 +1,35 @@
+.button-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+
+    border-radius: 30px;
+    background-color: var(--primary-orange);
+    transition: var(--main-transition);
+    cursor: pointer;
+
+    color: var(--defaul-10);
+    font-weight: 500;
+    line-height: calc(19.12/14);
+
+    &:hover{
+        background-color: var(--secondary-orange-hover);
+    }
+
+    &:focus{
+        border: 3px solid var(--secondary-peach);
+    }
+
+    &:disabled{
+        background-color: var(--defaul-40);
+    }
+}
+
+.button-link__icon-box{
+    width: 22px;
+    height: 22px;
+}

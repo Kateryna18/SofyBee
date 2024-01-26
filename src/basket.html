@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Basket" })
+  <body>
+    @@include('html/header.html', {})
+    <main class="main-general basket-page">
+      <div class="basket__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./basket.html">Basket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="basket-orders">
+        <div class="container basket-orders__container">
+          <div class="basket-orders__head">
+            <h2 class="section-title basket-orders__title">Basket</h2>
+            <div class="basket-orders__button-clear-box">
+              <button type="button" class="button-link button-link--icon">
+                <div class="button-link__icon-box icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#trash"></use>
+                  </svg>
+                </div>
+                Clear my cart
+              </button>
+            </div>
+          </div>
+          <div class="basket-main">
+            <div class="basket-main__left-box">
+              <div class="basket-main__order-list-box">
+                <h3 class="basket-main__order-title left-box">Individual book</h3>
+                <ul class="basket-main__order-list">
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="basket-main__order-list-box">
+                <ul class="basket-main__order-list">
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <div class="basket-main__order-chip-box">
+                            <p>+Bodya</p>
+                            <p>€4</p>
+                          </div>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="basket-main__order-item">
+                    <div class="basket-main__order-item-head">
+                      <div class="basket-main__order-info">
+                        <div class="basket-main__order-img-box">
+                          <img
+                            src="./img/product/block-images-img1.png"
+                            alt="book"
+                          />
+                        </div>
+                        <div class="basket-main__order-description">
+                          <p class="basket-main__order-name">
+                            Quiet book per bambini
+                          </p>
+                          <p class="basket-main__order-text">
+                            6 Facciate attività
+                          </p>
+                        </div>
+                        <div class="basket-main__order-item-main min-tablet">
+                          <div class="basket-main__order-count-box">
+                            <div class="count-block">
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-minus"
+                              >
+                                <div class="order-count-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <p class="count-block__value">1</p>
+                              <button
+                                type="button"
+                                class="count-block__button count-block__button-plus"
+                              >
+                                <div class="count-block-button__icon icon-box">
+                                  <svg>
+                                    <use href="./img/icons/icons.svg#plus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="basket-main__order-total-price-box">
+                            <p class="basket-main__order-total-price">€ 1999</p>
+                            <div class="basket-main__order-price-info">
+                              <p class="basket-main__order-price-previous">€ 108</p>
+                              <div class="basket-main__order-price-action">
+                                <p>-17%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        class="basket-main__order-button-delete"
+                      >
+                        <div class="order-button-delete__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#trash"></use>
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="basket-main__order-item-main mobile">
+                      <div class="basket-main__order-count-box">
+                        <div class="count-block">
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-minus"
+                          >
+                            <div class="order-count-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#minus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                          <p class="count-block__value">1</p>
+                          <button
+                            type="button"
+                            class="count-block__button count-block__button-plus"
+                          >
+                            <div class="count-block-button__icon icon-box">
+                              <svg>
+                                <use href="./img/icons/icons.svg#plus"></use>
+                              </svg>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="basket-main__order-total-price-box">
+                        <p class="basket-main__order-total-price">€ 1999</p>
+                        <div class="basket-main__order-price-info">
+                          <p class="basket-main__order-price-previous">€ 108</p>
+                          <div class="basket-main__order-price-action">
+                            <p>-17%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="basket-main__right-box total-info-order">
+              <h3 class="basket-main__order-title">General information about order</h3>
+              <ul class="total-info-order__list">
+                <li class="total-info-order__item">
+                  <p class="total-info-order__position-name">Total Goods</p>
+                  <div class="total-info-order__decor-line"></div>
+                  <div class="total-info-order__position-value-box">
+                    <p class="total-info-order__position-value">11 positions</p>
+                  </div>
+                </li>
+                <li class="total-info-order__item">
+                  <p class="total-info-order__position-name">Individual book</p>
+                  <div class="total-info-order__decor-line"></div>
+                  <div class="total-info-order__position-chips">
+                    <div class="total-info-order__position-value-box blue">
+                      <p class="total-info-order__position-value">1 book</p>
+                    </div>
+                    <div class="total-info-order__position-value-box">
+                      <p class="total-info-order__position-value">6 pages</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="total-info-order__item">
+                  <p class="total-info-order__position-name">Total Price</p>
+                  <div class="total-info-order__decor-line"></div>
+                  <div class="total-info-order__position-price-box">
+                    <p class="total-info-order__position-price-curent">
+                      € 12 267
+                    </p>
+                    <div class="total-info-order__position-price-container">
+                      <p class="total-info-order__position-price-previous">
+                        € 14 608
+                      </p>
+                      <div class="total-info-order__position-price-action">
+                        <p>-12%</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="basket-main__right-box-button">
+                <button type="button" class="button-link button-link--icon">
+                  Make an order
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="basket-main-empty">
+            <div class="basket-main-empty__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#bee-nofeedback"></use>
+              </svg>
+            </div>
+            <p class="basket-main-empty__message">Your basket is empty</p>
+            <p class="basket-main-empty__info">Add products to your basket to see them here</p>
+            <div class="basket-main-empty__button-link">
+              <a href="#" class="button-link button-link--icon">
+                View products
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/mobile-search-block.html', {})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

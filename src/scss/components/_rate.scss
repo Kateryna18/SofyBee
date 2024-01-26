@@ -1,0 +1,18 @@
+.rate {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+.rate__stars {
+  display: flex;
+  align-items: center;
+}
+.rate-stars__icon {
+  width: 24px;
+  height: 24px;
+}
+.rate__value {
+  font-size: 12px;
+  line-height: calc(16.39 / 12);
+  color: var(--defaul-70);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Dashboard" })
+  <body>
+    @@include('html/header.html', {})
+    <main class="main-general dashboard__main">
+      <div class="dashboard__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./dashboard.html">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!---------------------------------------------- DASHBOARD ------------------------------------->
+      <div class="container dashboard__container">
+        <h2 class="section-title dashboard__title">Order history</h2>
+        <div class="dashboard">
+          <div class="dashboard__aside">
+            @@include('html/aside-nav-block.html', {})
+          </div>
+          <div class="dashboard__content" id="tab1">
+            @@include('html/dashboard-content.html', {})
+          </div>
+          <div class="dashboard__content" id="tab2" style="display: none">
+            @@include('html/shipping-address.html', {})
+          </div>
+          <div class="dashboard__content" id="tab3" style="display: none">
+            @@include('html/order-history.html', {})
+          </div>
+        </div>
+      </div>
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/mobile-search-block.html', {})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

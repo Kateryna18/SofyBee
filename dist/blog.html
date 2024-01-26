@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240126105120"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css?_v=20240126105120">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js?_v=20240126105120"></script>
+  <link rel="stylesheet" href="css/style.min.css?_v=20240126105120" />
+</head>
+
+  <body>
+    <header>
+  <div class="header-container">
+    <div class="container">
+      <div class="header__top top-header">
+        <div class="top-header__info-block">
+          <p class="top-header__info">
+            Lorem ipsum dolor sit amet consectetur. Molestie vel neque ipsum
+            risus mattis netus amet. Eget lectus pellentesque fermentum.
+          </p>
+          <a
+            href="#"
+            class="top-header__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Learn More</a
+          >
+        </div>
+        <div class="top-header__button-block">
+          <button type="button" class="top-header__button">
+            <div class="icon-box icon-close">
+              <svg width="24" height="24">
+                <use href="./img/icons/icons.svg#x"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="header__body body-header">
+        <div class="body-header__left-panel">
+          <div class="body-header__nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__link">About SofyBee</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./blog.html" class="nav-list__link">Blog</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contacts.html" class="nav-list__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-header__subscribe-block subscribe-block">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="body-header__mobile-menu header-menu-mob">
+          <button type="button" class="header-menu-mob__button js-open-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#burgerMenu"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Menu</p>
+          </button>
+          <button type="button" class="header-menu-mob__button js-close-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-red"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Close</p>
+          </button>
+        </div>
+        <div class="body-header__logo-block logo-block">
+          <a href="../index.html">
+            <div class="logo-block__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#logo"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="body-header__right-panel">
+          <div class="body-header__select">
+            <div class="select">
+              <button type="button" class="select__button">
+                <p class="select__selected-value">Italiano</p>
+                <div class="select__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="select__list-box">
+                <ul class="select__list">
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          <div class="body-header__search-block search-block">
+            <button type="button" class="search-block__button js-open-menu2">
+              <div class="search-block__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#search-blue"></use>
+                </svg>
+              </div>
+              <div class="search-block__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="body-header__bascket bascket">
+            <button type="button" class="bascket__button">
+              <div class="bascket__icon-wrapper">
+                <div class="bascket__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#bag-orange"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="bascket__selected-value">0</p>
+            </button>
+          </div>
+          <div class="body-header__authorization authorization">
+            <button type="button" class="authorization__button">
+              <div class="authorization__icon-wrapper">
+                <div class="authorization__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#user-blue"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="authorization__value">Login/Registration</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__footer">
+      <div class="container">
+        <div class="header__footer-content">
+          <div class="header-footer__menu-nav">
+            <ul class="nav-list header-footer__nav-list">
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Amigurumi</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Giocattoli in legno</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Schede sensoriali</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Busy Cube</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >In SALDO</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-footer__menu-mob">
+            <button type="button" class="header-menu-mob__button js-open-menu">
+              <div class="header-menu-mob__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#burgerMenu"></use>
+                </svg>
+              </div>
+              <div class="header-menu-mob__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x-white"></use>
+                </svg>
+              </div>
+              <p class="header-menu-mob__value">Menu</p>
+            </button>
+          </div>
+          <div class="header-footer__link-box">
+            <a href="./builder.html" class="header-footer__link"
+              >Quiet Book Personalizzati</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main-general blog">
+      <div class="container">
+        <div class="blog__breadcrumbs">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <section class="blog">
+          <h2 class="section-title blog__title">Blog</h2>
+          <div class="blog__catalog-box">
+            <ul class="blog__list">
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img1.webp" type="image/webp"><img src="./img/blog/blog-img1.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Unlocking the Potential: Strategies for Effective
+                      Children's Study Habits
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img2.webp" type="image/webp"><img src="./img/blog/blog-img2.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Innovative Approaches to Children's Study
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img3.webp" type="image/webp"><img src="./img/blog/blog-img3.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Navigating the Learning Journey: A Guide to Children's
+                      Study Success
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img4.webp" type="image/webp"><img src="./img/blog/blog-img4.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      From ABCs to SATs: A Parent's Handbook on Children's Study
+                      Skills
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img5.webp" type="image/webp"><img src="./img/blog/blog-img5.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Building Bright Minds: The Art of Children's Study and
+                      Development
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img6.webp" type="image/webp"><img src="./img/blog/blog-img6.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Fun and Focus: Creating Engaging Study Environments for
+                      Kids
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img7.webp" type="image/webp"><img src="./img/blog/blog-img7.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Empowering Young Scholars: Tools and Techniques for
+                      Children's Study
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img8.webp" type="image/webp"><img src="./img/blog/blog-img8.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Cracking the Code: Enhancing Children's Study Techniques
+                      for Academic Excellence
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img9.webp" type="image/webp"><img src="./img/blog/blog-img9.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Shaping Tomorrow's Leaders: The Importance of Children's
+                      Study Habits
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+              <li class="blog__card">
+                <a href="./article.html" class="blog__card-link">
+                  <div class="blog__card-img">
+                    <picture><source srcset="./img/blog/blog-img10.webp" type="image/webp"><img src="./img/blog/blog-img10.png" alt="blog img" /></picture>
+                  </div>
+                  <div class="blog__card-content">
+                    <h3 class="blog__card-title">
+                      Homework Heroes: Supporting Your Child's Study Efforts at
+                      Home
+                    </h3>
+                    <p class="blog__card-text">
+                      Deepen your knowledge of different types of facial
+                      treatments. From exotic wraps to deep cleansing, choose
+                      your own way of recovery.
+                    </p>
+                  </div>
+                  <div class="blog__card-button">
+                    <div class="blog__card-button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#arrowUpRight-black"
+                        ></use>
+                      </svg>
+                    </div>
+                    Read More
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="blog__pagination">
+                <div class="pagination">
+  <button type="button" class="pagination__button-arrow left">
+    <div class="pagination-block__icon icon-box">
+      <svg>
+        <use href="./img/icons/icons.svg#chevron-left-white"></use>
+      </svg>
+    </div>
+  </button>
+  <div class="pagination__button-box">
+    <ul class="pagination__button-list">
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">1</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">2</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">3</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">...</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">46</button>
+      </li>
+    </ul>
+  </div>
+  <button type="button" class="pagination__button-arrow right">
+    <div class="pagination-block__icon icon-box">
+      <svg>
+        <use href="./img/icons/icons.svg#chevron-right-white"></use>
+      </svg>
+    </div>
+  </button>
+</div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__content-head">
+        <div class="footer__content-logo-block">
+          <div class="footer__content-logo">
+            <a href="../index.html">
+              <div class="logo-block__footer-icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#logo"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <div class="footer__content-subscribe">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__nav-tablet nav-desctop">
+          <div class="nav-tablet__block">
+            <h3 class="nav-tablet__list-title">Categories</h3>
+            <ul class="nav-tablet__list">
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Quiet Books</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Amigurumi</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Giocattoli in legno</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Schede sensoriali</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Busy Cube</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">In SALDO</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-tablet__block right-block">
+            <h3 class="nav-tablet__list-title">Company</h3>
+            <ul class="nav-tablet__list right-block">
+              <li class="nav-tablet__item">
+                <a href="./about.html" class="nav-tablet__link">About SofyBee</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="./blog.html" class="nav-tablet__link">Blog</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="./contacts.html" class="nav-tablet__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__content-contacts footer-contacts">
+          <div class="footer__content-subscribe desctop">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="tel:+393883675950" class="footer-contacts__tel"
+            >+3 938 836 759 50</a
+          >
+          <a href="mailto:sofybee1@gmail.com" class="footer-contacts__mail"
+            >sofybee1@gmail.com</a
+          >
+          <address class="footer-contacts__address-block">
+            <p class="footer-contacts__address">
+              Italy, Via di Valle Melaina, 149
+            </p>
+          </address>
+        </div>
+      </div>
+      <div class="footer__content-nav-menu">
+        <div class="footer__nav-menu-block">
+          <button type="button" class="footer__nav-menu-button">
+            <p class="footer__nav-menu-value">Categories</p>
+            <div class="icon-box footer__nav-menu-icon">
+              <svg>
+                <use href="./img/icons/icons.svg#arrow-down-circle"></use>
+              </svg>
+            </div>
+          </button>
+          <div class="footer__nav-menu-dropdown">
+            <ul class="footer__nav-menu-dropdown-list">
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Quiet Books</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Amigurumi</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Giocattoli in legno</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Schede sensoriali</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Busy Cube</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">In SALDO</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Quiet Books Personalizzati</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__nav-menu-block">
+          <button type="button" class="footer__nav-menu-button">
+            <p class="footer__nav-menu-value">Company</p>
+            <div class="icon-box footer__nav-menu-icon">
+              <svg>
+                <use href="./img/icons/icons.svg#arrow-down-circle"></use>
+              </svg>
+            </div>
+          </button>
+          <div class="footer__nav-menu-dropdown">
+            <ul class="footer__nav-menu-dropdown-list">
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./about.html" class="footer__nav-menu-dropdown-link">About SofyBee</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./blog.html" class="footer__nav-menu-dropdown-link">Blog</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./contacts.html" class="footer__nav-menu-dropdown-link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__nav-tablet nav-tablet">
+        <div class="nav-tablet__block">
+          <h3 class="nav-tablet__list-title">Categories</h3>
+          <ul class="nav-tablet__list">
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Quiet Books</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Amigurumi</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Giocattoli in legno</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Schede sensoriali</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Busy Cube</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">In SALDO</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link"
+                >Quiet Books Personalizzati</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-tablet__block right-block">
+          <h3 class="nav-tablet__list-title">Company</h3>
+          <ul class="nav-tablet__list right-block">
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">About SofyBee</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Blog</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__sub-footer">
+      <div class="sub-footer__buttons">
+        <ul class="nav-list footer-nav-list">
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link"
+              >Termini e condizioni</a
+            >
+          </li>
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link">Sitemap</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-footer__payment payment">
+        <ul class="payment__list">
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#stripe-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#paypal-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#mastercard-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#visa-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#discover-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#amex-payment"></use>
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-footer__text-block">
+        <p class="sub-footer__text">
+          &copy; Diritto d'autore 2023 SofyBee. Tutti i diritti riservati.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="mobile-menu js-menu-container">
+  <header>
+  <div class="header-container">
+    <div class="container">
+      <div class="header__top top-header">
+        <div class="top-header__info-block">
+          <p class="top-header__info">
+            Lorem ipsum dolor sit amet consectetur. Molestie vel neque ipsum
+            risus mattis netus amet. Eget lectus pellentesque fermentum.
+          </p>
+          <a
+            href="#"
+            class="top-header__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Learn More</a
+          >
+        </div>
+        <div class="top-header__button-block">
+          <button type="button" class="top-header__button">
+            <div class="icon-box icon-close">
+              <svg width="24" height="24">
+                <use href="./img/icons/icons.svg#x"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="header__body body-header">
+        <div class="body-header__left-panel">
+          <div class="body-header__nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__link">About SofyBee</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./blog.html" class="nav-list__link">Blog</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contacts.html" class="nav-list__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-header__subscribe-block subscribe-block">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="body-header__mobile-menu header-menu-mob">
+          <button type="button" class="header-menu-mob__button js-open-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#burgerMenu"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Menu</p>
+          </button>
+          <button type="button" class="header-menu-mob__button js-close-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-red"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Close</p>
+          </button>
+        </div>
+        <div class="body-header__logo-block logo-block">
+          <a href="../index.html">
+            <div class="logo-block__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#logo"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="body-header__right-panel">
+          <div class="body-header__select">
+            <div class="select">
+              <button type="button" class="select__button">
+                <p class="select__selected-value">Italiano</p>
+                <div class="select__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="select__list-box">
+                <ul class="select__list">
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          <div class="body-header__search-block search-block">
+            <button type="button" class="search-block__button js-open-menu2">
+              <div class="search-block__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#search-blue"></use>
+                </svg>
+              </div>
+              <div class="search-block__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="body-header__bascket bascket">
+            <button type="button" class="bascket__button">
+              <div class="bascket__icon-wrapper">
+                <div class="bascket__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#bag-orange"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="bascket__selected-value">0</p>
+            </button>
+          </div>
+          <div class="body-header__authorization authorization">
+            <button type="button" class="authorization__button">
+              <div class="authorization__icon-wrapper">
+                <div class="authorization__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#user-blue"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="authorization__value">Login/Registration</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__footer">
+      <div class="container">
+        <div class="header__footer-content">
+          <div class="header-footer__menu-nav">
+            <ul class="nav-list header-footer__nav-list">
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Amigurumi</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Giocattoli in legno</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Schede sensoriali</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Busy Cube</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >In SALDO</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-footer__menu-mob">
+            <button type="button" class="header-menu-mob__button js-open-menu">
+              <div class="header-menu-mob__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#burgerMenu"></use>
+                </svg>
+              </div>
+              <div class="header-menu-mob__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x-white"></use>
+                </svg>
+              </div>
+              <p class="header-menu-mob__value">Menu</p>
+            </button>
+          </div>
+          <div class="header-footer__link-box">
+            <a href="./builder.html" class="header-footer__link"
+              >Quiet Book Personalizzati</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <div class="mobile-menu__content">
+      <div class="mobile-menu__head">
+        <div class="mobile-menu__auth-button-box">
+          <a href="#" class="button-link button-link--icon">
+            <div class="button-link__icon-box icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#user-blue"></use>
+              </svg>
+            </div>
+            Login/Registration
+          </a>
+        </div>
+        <div class="mobile-menu__select">
+          <div class="select">
+            <button type="button" class="select__button">
+              <p class="select__selected-value">Italiano</p>
+              <div class="select__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="select__list-box">
+              <ul class="select__list">
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu__search-box js-open-menu2">
+        <div class="input-group">
+          <div class="input-group__input-container">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="input-group__input"
+              placeholder="Search"
+            />
+            <div class="input-group__icon right icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#search-blue"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu__main">
+        <div class="mobile-menu__main-button">
+          <a href="#" class="button-link button-link--icon">
+            Quiet Book Personalizzati
+          </a>
+        </div>
+        <div class="mobile-menu__categories-box">
+            <ul class="mobile-menu__categories-list">
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Quiet Books</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Amigurumi</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Giocattoli in legno</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Schede sensoriali</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Busy Cube</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">In SALDO</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Quiet Books Personalizzati</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu__company-box">
+            <ul class="mobile-menu__company-list">
+                <li class="mobile-menu__company-item">
+                    <a href="./about.html" class="mobile-menu__company-link">About SofyBee</a>
+                </li>
+                <li class="mobile-menu__company-item">
+                    <a href="./blog.html" class="mobile-menu__company-link">Blog</a>
+                </li>
+                <li class="mobile-menu__company-item">
+                    <a href="./contacts.html" class="mobile-menu__company-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div class="mobile-menu__footer">
+        <ul class="subscribe__list">
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--red">
+                <svg width="18" height="18" class="icon-youToube">
+                  <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--green">
+                <svg width="18" height="18" class="icon-whatsApp">
+                  <use href="./img/icons/icons.svg#whatsApp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--blue">
+                <svg width="18" height="18">
+                  <use href="./img/icons/icons.svg#facebookMono"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--violette">
+                <svg width="18" height="18">
+                  <use href="./img/icons/icons.svg#instagramMono"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="mobile-search-page js-menu2-container">
+  <div class="container mobile-search-page__container">
+    <div class="mobile-search__button js-close-menu2">
+      <button type="button" class="button-link button-link--icon">
+        Close
+        <div class="button-link__icon-box icon-box">
+          <svg>
+            <use href="./img/icons/icons.svg#x"></use>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div class="mobile-search__main">
+      <div class="mobile-search__box">
+        <div class="input-group">
+          <div class="input-group__input-container">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="input-group__input"
+              placeholder="Categories, products..."
+            />
+            <div class="input-group__icon right icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#search-blue"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="desctop-search__button-close-box">
+          <button type="button" class="desctop-search__button-close js-close-menu2">
+            <div class="desctop-search-button-close__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-white"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-search__categories-box">
+        <h3 class="mobile-search__categories-title">Categories</h3>
+        <ul class="mobile-search__categories-list">
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Quiet Books</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Amigurumi</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Giocattoli in legno</a
+            >
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Schede sensoriali</a
+            >
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Busy Cube</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">In SALDO</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Quiet Books Personalizzati</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/app.min.js?_v=20240126105120"></script>
+  </body>
+</html>

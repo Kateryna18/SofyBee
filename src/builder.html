@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Book Builder" })
+  <body>
+    @@include('html/header.html', {})
+    <main class="main-general builder">
+      <div class="builder__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./builder.html">Quiet Book Personalizzati</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="order-builder">
+        <div class="container order-builder__container">
+          <h1 class="order-builder__title">Quiet Book Personalizzati</h1>
+          <div class="order-builder__desctop-box">
+          <div class="order-builder__steps-block">
+            <p class="order-builder__description">
+              Create your own book for your child. You can customize each page,
+              create a cover with your name and choose the number of pages.
+            </p>
+            <div class="order-builder__steps">
+              <div class="order-builder__step step-one">
+                <div class="order-builder__step-head">
+                  <div class="order-builder__step-head-info">
+                    <div class="order-builder__step-head-number">
+                      <p>1</p>
+                    </div>
+                    <h3 class="order-builder__step-head-title">
+                      Età del bimbo*
+                    </h3>
+                  </div>
+                  <button type="button" class="order-builder__step-head-button">
+                    <div class="order-builder__button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#chevron-right-white"
+                        ></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="order-builder__step-dropdown">
+                  <p class="order-builder__step-description">
+                    Depending on the child's age, we can shape the complexity of
+                    the mechanisms, the richness of the page, and the overall
+                    content of the book.
+                  </p>
+                  <ul class="order-builder__step-list-variants">
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value"><1</p>
+                        <p class="step-button-variant__value-text">years</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">1-2</p>
+                        <p class="step-button-variant__value-text">years</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">3-5</p>
+                        <p class="step-button-variant__value-text">years</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">6+</p>
+                        <p class="step-button-variant__value-text">years</p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="order-builder__step step-two">
+                <div class="order-builder__step-head">
+                  <div class="order-builder__step-head-info">
+                    <div class="order-builder__step-head-number">
+                      <p>2</p>
+                    </div>
+                    <h3 class="order-builder__step-head-title">
+                      Numero di pagine
+                    </h3>
+                  </div>
+                  <button type="button" class="order-builder__step-head-button">
+                    <div class="order-builder__button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#chevron-right-white"
+                        ></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="order-builder__step-dropdown">
+                  <p class="order-builder__step-description">
+                    Choose how many pages you want to have in the book. Minimum
+                    4 pages excluding the title page. Keep in mind that the
+                    final price and sometimes the production time depends on the
+                    number of pages.
+                  </p>
+                  <ul class="order-builder__step-list-variants">
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">4</p>
+                        <p class="step-button-variant__value-text">pages</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">6</p>
+                        <p class="step-button-variant__value-text">pages</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">8</p>
+                        <p class="step-button-variant__value-text">pages</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">10</p>
+                        <p class="step-button-variant__value-text">pages</p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="order-builder__step step-three">
+                <div class="order-builder__step-head">
+                  <div class="order-builder__step-head-info">
+                    <div class="order-builder__step-head-number">
+                      <p>3</p>
+                    </div>
+                    <h3 class="order-builder__step-head-title">
+                      Сopertina personalizzata
+                    </h3>
+                  </div>
+                  <button type="button" class="order-builder__step-head-button">
+                    <div class="order-builder__button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#chevron-right-white"
+                        ></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="order-builder__step-dropdown">
+                  <p class="order-builder__step-description">
+                    Choose a cover type. You can make the book personalized for
+                    your child.
+                  </p>
+                  <ul class="order-builder__step-list-variants">
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">Standard cover</p>
+                        <p class="step-button-variant__value-text">0 €</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Individual name
+                        </p>
+                        <p class="step-button-variant__value-text">+10 €</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Individual character
+                        </p>
+                        <p class="step-button-variant__value-text">+15 €</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Individual name and character
+                        </p>
+                        <p class="step-button-variant__value-text">+35 €</p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="order-builder__step step-four">
+                <div class="order-builder__step-head">
+                  <div class="order-builder__step-head-info">
+                    <div class="order-builder__step-head-number">
+                      <p>4</p>
+                    </div>
+                    <h3 class="order-builder__step-head-title">
+                      Сopertina semplice
+                    </h3>
+                  </div>
+                  <button type="button" class="order-builder__step-head-button">
+                    <div class="order-builder__button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#chevron-right-white"
+                        ></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="order-builder__step-dropdown">
+                  <p class="order-builder__step-description">
+                    Choose a design for the outer side binding of the pages.
+                    This will give your book a personalized look.
+                  </p>
+                  <ul class="order-builder__step-list-variants">
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Standard semplice
+                        </p>
+                        <p class="step-button-variant__value-text">0 €</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Stoffa monocolore
+                        </p>
+                        <p class="step-button-variant__value-text">15 €</p>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-item-variants">
+                      <button
+                        type="button"
+                        class="order-builder__step-button-variant step-button-variant"
+                      >
+                        <p class="step-button-variant__value">
+                          Stoffa a fantasia
+                        </p>
+                        <p class="step-button-variant__value-text">25 €</p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="order-builder__step step-five">
+                <div class="order-builder__step-head">
+                  <div class="order-builder__step-head-info">
+                    <div class="order-builder__step-head-number">
+                      <p>5</p>
+                    </div>
+                    <h3 class="order-builder__step-head-title">
+                      Сopertina semplice
+                    </h3>
+                  </div>
+                  <button type="button" class="order-builder__step-head-button">
+                    <div class="order-builder__button-icon icon-box">
+                      <svg>
+                        <use
+                          href="./img/icons/icons.svg#chevron-right-white"
+                        ></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="order-builder__step-dropdown">
+                  <p class="order-builder__step-description">
+                    Collect the page types you want to see in your book.
+                    Attention: The order of the pages depends on the order you
+                    added in the designer.
+                  </p>
+                  <ul class="order-builder__step-five-list">
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="order-builder__step-five-item">
+                      <button
+                        type="button"
+                        class="order-builder__step-five-button-card"
+                      >
+                        <div class="card">
+                          <div class="card__img-block">
+                            <div class="card__img-box">
+                              <img
+                                src="./img/index/catalog/catalog1-m.png"
+                                alt="Quiet book per bambini"
+                              />
+                            </div>
+                            <div class="card__img-label-box">
+                              <div
+                                class="card__img-label card__img-label--orange"
+                              >
+                                New
+                              </div>
+                              <div
+                                class="card__img-label card__img-label--blue"
+                              >
+                                Popular
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__info">
+                            <h3 class="card__info-title">
+                              Quiet book per bambini
+                            </h3>
+                            <p class="card__info-description">
+                              6 Facciate attività
+                            </p>
+                            <div class="card__info-price price-block">
+                              <p class="price-block__current-price-value">
+                                € 99
+                              </p>
+                              <div class="price-block__previous-price">
+                                <p class="price-block__previous-price-value">
+                                  € 108
+                                </p>
+                                <div class="price-block__discount">-17%</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card__button">
+                            <a href="#" class="button-link card__button-link"
+                              >Add</a
+                            >
+                          </div>
+                        </div>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order-builder__result">
+            <h3 class="order-builder__result-title">
+              General information about an individual book
+            </h3>
+            <div class="order-builder__result-info">
+              <div
+                class="order-builder__result-info-position result-info-position"
+              >
+                <p class="result-info-position__name">Età del bimbo</p>
+                <div class="result-info-position__decor-line"></div>
+                <div class="result-info-position__calue-block">
+                  <p class="result-info-position__value">1</p>
+                  <span>years</span>
+                </div>
+              </div>
+              <div
+                class="order-builder__result-info-position result-info-position"
+              >
+                <p class="result-info-position__name">Numero di pagine</p>
+                <div class="result-info-position__decor-line"></div>
+                <div class="result-info-position__calue-block">
+                  <p class="result-info-position__value">You need to choose</p>
+                </div>
+              </div>
+              <div
+                class="order-builder__result-info-position result-info-position"
+              >
+                <p class="result-info-position__name">
+                  Сopertina personalizzata
+                </p>
+                <div class="result-info-position__decor-line"></div>
+                <div class="result-info-position__calue-block">
+                  <p class="result-info-position__value">You need to choose</p>
+                </div>
+              </div>
+              <div
+                class="order-builder__result-info-position result-info-position"
+              >
+                <p class="result-info-position__name">Copertina semplice</p>
+                <div class="result-info-position__decor-line"></div>
+                <div class="result-info-position__calue-block">
+                  <p class="result-info-position__value">You need to choose</p>
+                </div>
+              </div>
+            </div>
+            <div class="order-builder__result-pages">
+              <h4 class="order-builder__result-pages-title">Selected pages</h4>
+              <ul class="selected-pages__list">
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">1</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">2</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">3</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">4</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">5</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="selected-pages__item">
+                  <div class="selected-pages__item-head">
+                    <div class="selected-pages__count-box">
+                      <p class="selected-pages__count-value">6</p>
+                    </div>
+                    <button type="button" class="selected-pages__item-button">
+                      <div class="selected-pages__button-icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="selected-pages__item-main">
+                    <div class="selected-pages__imb-block">
+                      <img
+                        src="./img/buildBook/selected-book-1.png"
+                        alt="book"
+                      />
+                    </div>
+                    <div class="selected-pages__info-block">
+                      <div class="selected-pages__info-block-head">
+                        <p class="selected-pages__book-name">
+                          Quiet book per bambini
+                        </p>
+                        <p class="selected-pages__book-description">
+                          Lock for opening
+                        </p>
+                      </div>
+                      <div class="selected-pages__info-block-price">
+                        <p class="selected-pages__price-current">€ 99</p>
+                        <div class="selected-pages__price-previous-block">
+                          <p class="selected-pages__price-previous">€ 108</p>
+                          <div class="selected-pages__action-block">
+                            <p class="selected-pages__action-block-value">
+                              -17%
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="order-builder__result-footer">
+              <div class="order-builder__result-total">
+                <p class="order-builder__result-total-name">Total Price</p>
+                <div class="order-builder__result-total-decor"></div>
+                <p class="order-builder__result-total-value">€ 8643</p>
+              </div>
+              <div class="order-builder__result-submit-button">
+                <button type="button" class="button-link button-link--icon">
+                  Order Book
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="builder-info-content">
+        <div class="container builder-info-content__container">
+            <div class="builder-info-content__desctop-box">
+          <h3 class="builder-info-content__title">Lorem ipsum</h3>
+          <p class="builder-info-description">
+            Lorem ipsum dolor sit amet consectetur. Vestibulum tincidunt libero
+            vitae integer dolor nibh. Integer faucibus velit diam quis ut odio
+            aliquam tempus quis. Ut pellentesque lacus sapien diam cras. Et
+            rhoncus aliquam at libero aliquam accumsan. Diam in nunc aliquet
+            turpis elementum eget donec. Duis pulvinar quis non nulla est eget
+            ut. Molestie vitae mauris turpis sed non. Amet et leo sed at erat
+            porta in. Ipsum id consectetur est amet volutpat phasellus.
+            Vulputate suspendisse velit velit tincidunt lorem justo. Id rhoncus
+            ipsum massa arcu pellentesque volutpat morbi. <p class="builder-info-description__br"></p> Tortor cras facilisi
+            quam libero diam morbi molestie at. Metus feugiat sed accumsan
+            mauris. Mattis mi velit nunc tortor tellus mattis in. Consectetur
+            donec turpis ultricies id malesuada nec platea. Scelerisque potenti
+            orci massa cras proin tellus. Sagittis hendrerit vel proin turpis
+            viverra orci eget habitant suscipit. Non scelerisque volutpat nunc
+            neque porttitor. Egestas tristique rhoncus sed augue eu vitae
+            sollicitudin faucibus. Pretium mauris ultricies arcu habitant
+            viverra. Nam sollicitudin scelerisque faucibus nunc dignissim
+            volutpat blandit arcu scelerisque. Interdum mauris pellentesque elit
+            volutpat hendrerit fermentum sed. Risus convallis integer orci nisi
+            enim. Vestibulum nisi commodo cursus orci scelerisque suscipit ut
+            fermentum posuere. Placerat gravida consectetur pellentesque ac
+            lacus id leo sagittis. <p class="builder-info-description__br"></p> Vulputate praesent tellus vestibulum donec
+            nulla adipiscing libero euismod eget. Ullamcorper sed dictum felis
+            pretium nibh sed fermentum ultrices. Et scelerisque aenean diam urna
+            tortor proin aliquet nisi. Elementum egestas purus ut facilisi justo
+            at sagittis egestas. Ut massa volutpat adipiscing a neque egestas.
+            Mollis aliquet mollis enim eget vitae. Tortor tincidunt at molestie
+            mus ornare enim dolor sit non. Iaculis nisl nullam sed imperdiet.
+            Nibh malesuada volutpat morbi nisi aliquam ut consequat. Pharetra
+            sed turpis elit in tempor sit sagittis molestie at. <p class="builder-info-description__br"></p> Id sagittis
+            massa sit lectus. Lacinia neque faucibus amet semper. Ornare tellus
+            leo morbi diam dapibus egestas mollis feugiat. Sit mollis vivamus
+            dui iaculis sem morbi justo diam. Pharetra tristique sapien ut eu.
+            Nec libero sed ornare libero leo leo sit. Mauris tortor proin
+            aliquam in nec. Mauris id hac phasellus auctor quis diam pretium.
+            Bibendum erat duis auctor accumsan interdum.
+          </p>
+        </div>
+          <div class="builder-info-content__img-block">
+            <img
+              src="./img/buildBook/builder-content/img1.png"
+              alt="book in hands"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/mobile-search-block.html', {})
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<form class="dashboard-form">
+  <p class="dashboard-form__description">
+    Fill in real information about yourself to make it easier to place an order
+    and correctly identify yourself for our managers.
+  </p>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>1</p></div>
+      <h3 class="dashboard-form__step-title">General Info</h3>
+    </div>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <h4 class="dashboard-form__step-input-title">Your Name*</h4>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="Enter your real name"
+        />
+        <p class="dashboard-form__step-input-description">
+          This name will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <h4 class="dashboard-form__step-input-title">Your Surname*</h4>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="Enter your real surname"
+        />
+        <p class="dashboard-form__step-input-description">
+          This surname will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>2</p></div>
+      <h3 class="dashboard-form__step-title">Contacts</h3>
+    </div>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Mail*</label>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="my_mail@gmail.com"
+        />
+        <p class="dashboard-form__step-input-description">
+          This surname will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Number Phone</label>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="+ 000 000 0000 00"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>3</p></div>
+      <label class="dashboard-form__step-title">Account security</label>
+    </div>
+    <p class="dashboard-form__step-input-text">
+      To change your password, enter your old password and the new password in
+      the appropriate input fields. If everything is correct, the system will
+      change the password and you will need to log in with the new password the
+      next time you log in.
+    </p>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Old Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="old-password"
+            class="dashboard-form__step-input"
+            placeholder="Enter your old pass"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">New Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="new password"
+            class="dashboard-form__step-input"
+            placeholder="Enter new pass"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Repeat New Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="repeat password"
+            class="dashboard-form__step-input"
+            placeholder="Enter new pass again"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__button-submit">
+    <button type="button" class="button-link button-link--icon">
+      Save changes
+    </button>
+  </div>
+</form>

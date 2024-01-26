@@ -1,0 +1,30 @@
+// container 
+// min width = 320px 
+// max width = 1920px
+// containerPading = 15px + 15px
+// width container = 1520px + containerPading = 1550px
+// .container {
+//     width: 100%;
+//     max-width: 1550px;
+//     margin: 0 auto;
+//     padding: 0 15px;
+// }
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 744px) {
+    .container {
+      max-width: 744px;
+      padding: 0 12px;
+    }
+  }
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1560px;
+        padding: 0 20px;
+    }
+  }

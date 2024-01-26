@@ -1,0 +1,25 @@
+.chip {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5px 10px;
+    border-radius: 14px;
+  
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(18 / 12);
+    color: var(--defaul-10);
+  }
+  .chip--red {
+    background-color: var(--bg-red);
+  }
+  .chip--blue {
+    background-color: var(--primary-blue);
+  }
+  .chip--orange {
+    background-color: var(--primary-orange);
+  }
+  .chip--green {
+    background-color: #2bb530;
+  }

@@ -1,0 +1,35 @@
+.subscribe__list {
+    display: flex;
+    gap: 10px;
+}
+// .subscribe__item {
+// }
+.subscribe__icon{
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe__icon--red{
+    background-color: var(--bg-red);
+}
+
+.subscribe__icon--green{
+    background-color: #45C755;
+}
+.icon-whatsApp{
+    stroke: #45C755;
+}
+.subscribe__icon--blue{
+    background: linear-gradient(to right, #0064E4 0%, #1AAFFF 100%);
+}
+.subscribe__icon--violette{
+    background: linear-gradient(to right, #761ACC 0%, #D31C6D 50%, #FF932B 100%);
+
+}
+

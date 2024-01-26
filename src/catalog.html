@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', { "title":"Catalog" })
+  <body>
+    @@include('html/header.html', {})
+    <main class="main-general quiet-books-page">
+      <div class="catalog__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./catalog.html">Quiet Books</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="quiet-books">
+        <div class="container">
+          <div class="quiet-books__head">
+            <h2 class="section-title">Quiet Books</h2>
+            <button type="button" class="quiet-books__button-filter--open js-open-filter-mob">
+              <div class="button-filter__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#filter"></use>
+                </svg>
+              </div>
+              Filter
+            </button>
+          </div>
+          <div class="quiet-books__main">
+            <div class="quiet-books__filter-desctop">
+              <div class="filter">
+                <div class="filter__head">
+                  <div class="filter__head-top">
+                    <h2 class="filter__title-main">Filter</h2>
+                    <button type="button" class="filter__head-button-close js-close-filter-mob">
+                      <div class="filter-head-button__icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#x-white"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="filter__head-chip">
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                    <div class="filter-chip">
+                      <button type="button" class="filter-chip__button">
+                        <div class="filter-chip__icon icon-box">
+                          <svg>
+                            <use href="./img/icons/icons.svg#x-white"></use>
+                          </svg>
+                        </div>
+                        %name%
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__price filter__block-item">
+                  <div class="filter-item__head">
+                    <h3 class="filter__title">Price</h3>
+                    <button type="button" class="filter__price-button">
+                      <div class="filter-price-button__icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="filter__item-dropdown">
+                    <div class="filter__price">
+                      <div class="filter-price__inputs">
+                        <label class="filter-price__label">
+                          <span class="filter-price__valute">$</span>
+                          <input
+                            class="filter-price__input input-min"
+                            min="150"
+                            max="400"
+                            type="number"
+                            name=""
+                            id="input-min1"
+                          />
+                        </label>
+                        <span>-</span>
+                        <label class="filter-price__label">
+                          <span class="filter-price__valute">$</span>
+                          <input
+                            class="filter-price__input input-max"
+                            min="150"
+                            max="400"
+                            type="number"
+                            name=""
+                            id="input-max1"
+                          />
+                        </label>
+                      </div>
+                      <div class="filter-price__slider" id="filter-price__range-slider1"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__checkbox-block filter__block-item">
+                  <div class="filter-item__head">
+                    <h3 class="filter__title">Element</h3>
+                    <button type="button" class="filter__price-button">
+                      <div class="filter-price-button__icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="filter__item-dropdown">
+                    <ul class="filter__checkbox-list">
+                      <li class="filter__checkbox-item">
+                        <div class="filter__checkbox-container">
+                          <div class="filter__checkbox">
+                              <div class="filter__checkbox--checked"></div>
+                          </div>
+                          <span class="filter__checkbox-text">Text</span>
+                        </div>
+                      </li>
+                      <li class="filter__checkbox-item">
+                          <div class="filter__checkbox-container">
+                            <div class="filter__checkbox">
+                                <div class="filter__checkbox--checked"></div>
+                            </div>
+                            <span class="filter__checkbox-text">Text</span>
+                          </div>
+                        </li>
+                        <li class="filter__checkbox-item">
+                          <div class="filter__checkbox-container">
+                            <div class="filter__checkbox">
+                                <div class="filter__checkbox--checked"></div>
+                            </div>
+                            <span class="filter__checkbox-text">Text</span>
+                          </div>
+                        </li>
+                        <li class="filter__checkbox-item">
+                          <div class="filter__checkbox-container">
+                            <div class="filter__checkbox">
+                                <div class="filter__checkbox--checked"></div>
+                            </div>
+                            <span class="filter__checkbox-text">Text</span>
+                          </div>
+                        </li>
+                        <li class="filter__checkbox-item">
+                          <div class="filter__checkbox-container">
+                            <div class="filter__checkbox">
+                                <div class="filter__checkbox--checked"></div>
+                            </div>
+                            <span class="filter__checkbox-text">Text</span>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="filter__checkbox-block filter__block-item">
+                  <div class="filter-item__head">
+                    <h3 class="filter__title">Element</h3>
+                    <button type="button" class="filter__price-button">
+                      <div class="filter-price-button__icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="filter__item-dropdown">
+                      <ul class="filter__checkbox-list">
+                          <li class="filter__checkbox-item">
+                            <div class="filter__checkbox-container">
+                              <div class="filter__checkbox">
+                                  <div class="filter__checkbox--checked"></div>
+                              </div>
+                              <span class="filter__checkbox-text">Text</span>
+                            </div>
+                          </li>
+                          <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+                <div class="filter__checkbox-block filter__block-item">
+                  <div class="filter-item__head">
+                    <h3 class="filter__title">Element</h3>
+                    <button type="button" class="filter__price-button">
+                      <div class="filter-price-button__icon icon-box">
+                        <svg>
+                          <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="filter__item-dropdown">
+                      <ul class="filter__checkbox-list">
+                          <li class="filter__checkbox-item">
+                            <div class="filter__checkbox-container">
+                              <div class="filter__checkbox">
+                                  <div class="filter__checkbox--checked"></div>
+                              </div>
+                              <span class="filter__checkbox-text">Text</span>
+                            </div>
+                          </li>
+                          <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                            <li class="filter__checkbox-item">
+                              <div class="filter__checkbox-container">
+                                <div class="filter__checkbox">
+                                    <div class="filter__checkbox--checked"></div>
+                                </div>
+                                <span class="filter__checkbox-text">Text</span>
+                              </div>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="quiet-books__main-content">
+              <div class="quiet-books__banner">
+                <div class="quiet-books__banner-img">
+                  <img
+                    src="./img/blog/blog-img1.png"
+                    alt="quiet books page banner"
+                  />
+                </div>
+                <div class="block-gradient"></div>
+                <div class="quiet-books__banner-content">
+                  <h3 class="quiet-books__banner-title">
+                    Create your own book as you wish.
+                  </h3>
+                  <p class="quiet-books__banner-text">
+                    A convenient designer will allow you to create your own
+                    content, personalize the book for your child, and fill the
+                    book with all the desired material.
+                  </p>
+                  <div class="quiet-books__banner-button-link">
+                    <a href="./builder.html" class="button-link button-link--icon">
+                      Quiet Book Personalizzati
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="quiet-books__catalog">
+                <ul class="quiet-books__catalog-list">
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="quiet-books__catalog-item">
+                    <a href="./product.html" class="card quiet-books__catalog-card">
+                      <div class="card__img-block card__img-block--quiet-books">
+                        <div class="card__img-box card__img-box--quiet-books">
+                          <img
+                            src="./img/index/catalog/catalog1-m.png"
+                            alt="Quiet book per bambini"
+                          />
+                        </div>
+                        <div class="card__img-label-box">
+                          <div class="card__img-label card__img-label--orange">
+                            New
+                          </div>
+                          <div class="card__img-label card__img-label--blue">
+                            Popular
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__info card__info--quiet-books">
+                        <h3
+                          class="card__info-title card__info-title--quiet-books"
+                        >
+                          Quiet book per bambini
+                        </h3>
+                        <p
+                          class="card__info-description card__info-description--quiet-books"
+                        >
+                          6 Facciate attività
+                        </p>
+                        <div class="card__info-price price-block">
+                          <p class="price-block__current-price-value">€ 99</p>
+                          <div class="price-block__previous-price">
+                            <p class="price-block__previous-price-value">
+                              € 108
+                            </p>
+                            <div class="price-block__discount">-17%</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card__button card__button--quiet-books">
+                        <button
+                          type="button"
+                          class="button-link card__button-link"
+                        >
+                          Add to cart
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="quiet-books__pagination">
+                  @@include('html/pagination.html', {})
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html', {})
+    @@include('html/mobile-menu.html', {})
+    @@include('html/mobile-search-block.html', {})
+    <div class="filter-block-mobile js-filter-container">
+      <div class="filter">
+        <div class="filter__head">
+          <div class="filter__head-top">
+            <h2 class="filter__title-main">Filter</h2>
+            <button type="button" class="filter__head-button-close js-close-filter-mob">
+              <div class="filter-head-button__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x-white"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="filter__head-chip">
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+            <div class="filter-chip">
+              <button type="button" class="filter-chip__button">
+                <div class="filter-chip__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#x-white"></use>
+                  </svg>
+                </div>
+                %name%
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="filter__price filter__block-item">
+          <div class="filter-item__head">
+            <h3 class="filter__title">Price</h3>
+            <button type="button" class="filter__price-button">
+              <div class="filter-price-button__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="filter__item-dropdown">
+            <div class="filter__price">
+              <div class="filter-price__inputs">
+                <label class="filter-price__label">
+                  <span class="filter-price__valute">$</span>
+                  <input
+                    class="filter-price__input"
+                    min="150"
+                    max="400"
+                    type="number"
+                    name="input-min2"
+                    id="input-min2"
+                    value="60"
+                  />
+                </label>
+                <span>-</span>
+                <label class="filter-price__label">
+                  <span class="filter-price__valute">$</span>
+                  <input
+                    class="filter-price__input"
+                    min="150"
+                    max="400"
+                    type="number"
+                    name="input-max2"
+                    id="input-max2"
+                    value="999"
+                  />
+                </label>
+              </div>
+              <div class="filter-price__slider" id="filter-price__range-slider2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="filter__checkbox-block filter__block-item">
+          <div class="filter-item__head">
+            <h3 class="filter__title">Element</h3>
+            <button type="button" class="filter__price-button">
+              <div class="filter-price-button__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="filter__item-dropdown">
+            <ul class="filter__checkbox-list">
+              <li class="filter__checkbox-item">
+                <div class="filter__checkbox-container">
+                  <div class="filter__checkbox">
+                      <div class="filter__checkbox--checked"></div>
+                  </div>
+                  <span class="filter__checkbox-text">Text</span>
+                </div>
+              </li>
+              <li class="filter__checkbox-item">
+                  <div class="filter__checkbox-container">
+                    <div class="filter__checkbox">
+                        <div class="filter__checkbox--checked"></div>
+                    </div>
+                    <span class="filter__checkbox-text">Text</span>
+                  </div>
+                </li>
+                <li class="filter__checkbox-item">
+                  <div class="filter__checkbox-container">
+                    <div class="filter__checkbox">
+                        <div class="filter__checkbox--checked"></div>
+                    </div>
+                    <span class="filter__checkbox-text">Text</span>
+                  </div>
+                </li>
+                <li class="filter__checkbox-item">
+                  <div class="filter__checkbox-container">
+                    <div class="filter__checkbox">
+                        <div class="filter__checkbox--checked"></div>
+                    </div>
+                    <span class="filter__checkbox-text">Text</span>
+                  </div>
+                </li>
+                <li class="filter__checkbox-item">
+                  <div class="filter__checkbox-container">
+                    <div class="filter__checkbox">
+                        <div class="filter__checkbox--checked"></div>
+                    </div>
+                    <span class="filter__checkbox-text">Text</span>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="filter__checkbox-block filter__block-item">
+          <div class="filter-item__head">
+            <h3 class="filter__title">Element</h3>
+            <button type="button" class="filter__price-button">
+              <div class="filter-price-button__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="filter__item-dropdown">
+              <ul class="filter__checkbox-list">
+                  <li class="filter__checkbox-item">
+                    <div class="filter__checkbox-container">
+                      <div class="filter__checkbox">
+                          <div class="filter__checkbox--checked"></div>
+                      </div>
+                      <span class="filter__checkbox-text">Text</span>
+                    </div>
+                  </li>
+                  <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <div class="filter__checkbox-block filter__block-item">
+          <div class="filter-item__head">
+            <h3 class="filter__title">Element</h3>
+            <button type="button" class="filter__price-button">
+              <div class="filter-price-button__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="filter__item-dropdown">
+              <ul class="filter__checkbox-list">
+                  <li class="filter__checkbox-item">
+                    <div class="filter__checkbox-container">
+                      <div class="filter__checkbox">
+                          <div class="filter__checkbox--checked"></div>
+                      </div>
+                      <span class="filter__checkbox-text">Text</span>
+                    </div>
+                  </li>
+                  <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                    <li class="filter__checkbox-item">
+                      <div class="filter__checkbox-container">
+                        <div class="filter__checkbox">
+                            <div class="filter__checkbox--checked"></div>
+                        </div>
+                        <span class="filter__checkbox-text">Text</span>
+                      </div>
+                    </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

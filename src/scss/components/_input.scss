@@ -1,0 +1,104 @@
+// <div class="input-group">
+//             <label for="search" class="input-group__label">search</label>
+//             <div class="input-group__input-container">
+//                 <input type="text" name="search" id="search" class="input-group__input" placeholder="search">
+//                 <div class="input-group__icon right icon-box">
+//                     <svg>
+//                       <use href="./img/icons/icons.svg#search-blue"></use>
+//                     </svg>
+//                   </div>
+//             </div>
+//             <p class="input-group__helper-text"></p>
+// </div>
+
+.input-group {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+.input-group__label {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.input-group__input-container {
+  position: relative;
+  width: 100%;
+}
+.input-group__input {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  padding: 8px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  border: none;
+  background-color: var(--bg-blue-white);
+  transition: var(--main-transition);
+
+  font-size: 15px;
+  font-weight: 500;
+  line-height: calc(20.49 / 15);
+
+  &::placeholder {
+    opacity: 0.6;
+    color: var(--primary-blue);
+  }
+
+  &.left-padding {
+    padding-left: 54px;
+  }
+
+  &.white {
+    background-color: var(--defaul-10);
+  }
+
+  &.large {
+    height: 60px;
+
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &:hover{
+    border: 1px solid var(--primary-blue);
+  }
+
+  &:focus{
+    border: 3px solid var(--primary-blue-white);
+  }
+
+  &.error{
+    border: 1px solid var(--bg-red);
+  }
+}
+.input-group__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+
+  &.left {
+    left: 20px;
+  }
+
+  &.right {
+    right: 20px;
+  }
+}
+.input-group__helper-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: calc(16.39 / 12);
+  color: var(--defaul-70);
+
+  &.error{
+    color: var(--bg-red);
+  }
+}

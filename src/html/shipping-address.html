@@ -1,0 +1,97 @@
+<div class="no-address">
+  <p class="no-address__text">
+    Add your delivery address for easy one-click shipping in the future
+  </p>
+  <div class="no-address__content">
+    <h3 class="no-address__title">Added address</h3>
+    <div class="no-address__content-block">
+      <div class="no-address-block__icon icon-box">
+        <svg>
+          <use href="./img/icons/icons.svg#bee-nofeedback"></use>
+        </svg>
+      </div>
+      <p class="no-address__message">No addresses have been added yet</p>
+      <p class="no-address__info">
+        You have not added any addresses yet. Enter in the form below, or
+        already fill in the appropriate delivery points when ordering the
+        product in the cart.
+      </p>
+    </div>
+  </div>
+</div>
+<form class="delivery-form">
+  <h3 class="delivery-form__title">Your shipping address</h3>
+  <div class="delivery-form__main">
+    <ul class="delivery-form__list">
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your Country*</label>
+          <input
+            type="text"
+            name="country"
+            class="dashboard-form__step-input"
+            placeholder="Ukraine"
+          />
+        </div>
+      </li>
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your City*</label>
+          <input
+            type="text"
+            name="city"
+            class="dashboard-form__step-input"
+            placeholder="Kyiv"
+          />
+        </div>
+      </li>
+      <li class="delivery-form__item group-info-address">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your Address*</label>
+          <input
+            type="text"
+            name="street"
+            class="dashboard-form__step-input"
+            placeholder="Khreshchatyk Street"
+          />
+        </div>
+        <div class="delivery-form__input-group">
+          <div class="dashboard-form__step-input-box shipping-address-desctop">
+            <label class="dashboard-form__step-label">House number*</label>
+            <input
+              type="text"
+              name="house number"
+              class="dashboard-form__step-input"
+              placeholder="22"
+            />
+          </div>
+          <div class="dashboard-form__step-input-box shipping-address-desctop">
+            <label class="dashboard-form__step-label">Apartment number</label>
+            <input
+              type="text"
+              name="apartment number"
+              class="dashboard-form__step-input"
+              placeholder="22"
+            />
+          </div>
+        </div>
+      </li>
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your ZIP code*</label>
+          <input
+            type="text"
+            name="zip code"
+            class="dashboard-form__step-input"
+            placeholder="01044"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="dashboard-form__button-submit">
+    <button type="button" class="button-link button-link--icon">
+      Save changes
+    </button>
+  </div>
+</form>

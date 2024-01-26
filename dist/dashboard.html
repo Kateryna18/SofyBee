@@ -1,0 +1,2973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240126105120"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css?_v=20240126105120">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js?_v=20240126105120"></script>
+  <link rel="stylesheet" href="css/style.min.css?_v=20240126105120" />
+</head>
+
+  <body>
+    <header>
+  <div class="header-container">
+    <div class="container">
+      <div class="header__top top-header">
+        <div class="top-header__info-block">
+          <p class="top-header__info">
+            Lorem ipsum dolor sit amet consectetur. Molestie vel neque ipsum
+            risus mattis netus amet. Eget lectus pellentesque fermentum.
+          </p>
+          <a
+            href="#"
+            class="top-header__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Learn More</a
+          >
+        </div>
+        <div class="top-header__button-block">
+          <button type="button" class="top-header__button">
+            <div class="icon-box icon-close">
+              <svg width="24" height="24">
+                <use href="./img/icons/icons.svg#x"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="header__body body-header">
+        <div class="body-header__left-panel">
+          <div class="body-header__nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__link">About SofyBee</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./blog.html" class="nav-list__link">Blog</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contacts.html" class="nav-list__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-header__subscribe-block subscribe-block">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="body-header__mobile-menu header-menu-mob">
+          <button type="button" class="header-menu-mob__button js-open-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#burgerMenu"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Menu</p>
+          </button>
+          <button type="button" class="header-menu-mob__button js-close-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-red"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Close</p>
+          </button>
+        </div>
+        <div class="body-header__logo-block logo-block">
+          <a href="../index.html">
+            <div class="logo-block__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#logo"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="body-header__right-panel">
+          <div class="body-header__select">
+            <div class="select">
+              <button type="button" class="select__button">
+                <p class="select__selected-value">Italiano</p>
+                <div class="select__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="select__list-box">
+                <ul class="select__list">
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          <div class="body-header__search-block search-block">
+            <button type="button" class="search-block__button js-open-menu2">
+              <div class="search-block__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#search-blue"></use>
+                </svg>
+              </div>
+              <div class="search-block__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="body-header__bascket bascket">
+            <button type="button" class="bascket__button">
+              <div class="bascket__icon-wrapper">
+                <div class="bascket__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#bag-orange"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="bascket__selected-value">0</p>
+            </button>
+          </div>
+          <div class="body-header__authorization authorization">
+            <button type="button" class="authorization__button">
+              <div class="authorization__icon-wrapper">
+                <div class="authorization__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#user-blue"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="authorization__value">Login/Registration</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__footer">
+      <div class="container">
+        <div class="header__footer-content">
+          <div class="header-footer__menu-nav">
+            <ul class="nav-list header-footer__nav-list">
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Amigurumi</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Giocattoli in legno</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Schede sensoriali</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Busy Cube</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >In SALDO</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-footer__menu-mob">
+            <button type="button" class="header-menu-mob__button js-open-menu">
+              <div class="header-menu-mob__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#burgerMenu"></use>
+                </svg>
+              </div>
+              <div class="header-menu-mob__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x-white"></use>
+                </svg>
+              </div>
+              <p class="header-menu-mob__value">Menu</p>
+            </button>
+          </div>
+          <div class="header-footer__link-box">
+            <a href="./builder.html" class="header-footer__link"
+              >Quiet Book Personalizzati</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main-general dashboard__main">
+      <div class="dashboard__breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li>
+              <a href="./index.html">Main page</a>
+            </li>
+            <li>
+              <a href="./dashboard.html">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!---------------------------------------------- DASHBOARD ------------------------------------->
+      <div class="container dashboard__container">
+        <h2 class="section-title dashboard__title">Order history</h2>
+        <div class="dashboard">
+          <div class="dashboard__aside">
+            <div class="nav-menu">
+  <div class="nav-menu__user-info">
+    <p class="nav-menu__user-info-name">Name Surname</p>
+    <p class="nav-menu__user-info-mail">mail@gmail.com</p>
+  </div>
+  <aside class="aside-nav">
+    <ul class="aside-nav__list">
+      <li class="aside-nav__item active" id="tab1Button">
+        <button type="button" class="button-link button-link--icon">
+          <div class="aside-nav-button-link__icon-box inactive icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#user-black"></use>
+            </svg>
+          </div>
+          <div class="aside-nav-button-link__icon-box active icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#user-white"></use>
+            </svg>
+          </div>
+          Dashboard
+        </button>
+      </li>
+      <li class="aside-nav__item" id="tab2Button">
+        <button type="button" class="button-link button-link--icon">
+          <div class="aside-nav-button-link__icon-box inactive icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#shipping"></use>
+            </svg>
+          </div>
+          <div class="aside-nav-button-link__icon-box active icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#shipping-white"></use>
+            </svg>
+          </div>
+          Shipping address
+        </button>
+      </li>
+      <li class="aside-nav__item" id="tab3Button">
+        <button type="button" class="button-link button-link--icon">
+          <div class="aside-nav-button-link__icon-box inactive icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#list"></use>
+            </svg>
+          </div>
+          <div class="aside-nav-button-link__icon-box active icon-box">
+            <svg>
+              <use href="./img/icons/icons.svg#list-white"></use>
+            </svg>
+          </div>
+          Order history
+        </button>
+      </li>
+    </ul>
+  </aside>
+  <div class="nav-menu__button-logout">
+    <button type="button" class="button-link button-link--icon">
+      <div class="button-logout__icon-box icon-box">
+        <svg>
+          <use href="./img/icons/icons.svg#logout"></use>
+        </svg>
+      </div>
+      Log out of the account
+    </button>
+  </div>
+</div>
+
+          </div>
+          <div class="dashboard__content" id="tab1">
+            <form class="dashboard-form">
+  <p class="dashboard-form__description">
+    Fill in real information about yourself to make it easier to place an order
+    and correctly identify yourself for our managers.
+  </p>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>1</p></div>
+      <h3 class="dashboard-form__step-title">General Info</h3>
+    </div>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <h4 class="dashboard-form__step-input-title">Your Name*</h4>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="Enter your real name"
+        />
+        <p class="dashboard-form__step-input-description">
+          This name will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <h4 class="dashboard-form__step-input-title">Your Surname*</h4>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="Enter your real surname"
+        />
+        <p class="dashboard-form__step-input-description">
+          This surname will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>2</p></div>
+      <h3 class="dashboard-form__step-title">Contacts</h3>
+    </div>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Mail*</label>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="my_mail@gmail.com"
+        />
+        <p class="dashboard-form__step-input-description">
+          This surname will be used in the order unless you specify other
+          information
+        </p>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Number Phone</label>
+        <input
+          type="text"
+          name="name"
+          id=""
+          class="dashboard-form__step-input"
+          placeholder="+ 000 000 0000 00"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__step">
+    <div class="dashboard-form__step-head">
+      <div class="dashboard-form__step-number"><p>3</p></div>
+      <label class="dashboard-form__step-title">Account security</label>
+    </div>
+    <p class="dashboard-form__step-input-text">
+      To change your password, enter your old password and the new password in
+      the appropriate input fields. If everything is correct, the system will
+      change the password and you will need to log in with the new password the
+      next time you log in.
+    </p>
+    <div class="dashboard-form__step-main">
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Old Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="old-password"
+            class="dashboard-form__step-input"
+            placeholder="Enter your old pass"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">New Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="new password"
+            class="dashboard-form__step-input"
+            placeholder="Enter new pass"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="dashboard-form__step-input-box">
+        <label class="dashboard-form__step-label">Repeat New Password*</label>
+        <div class="form__input-with-button dashboard">
+          <input
+            type="text"
+            name="repeat password"
+            class="dashboard-form__step-input"
+            placeholder="Enter new pass again"
+          />
+          <button type="button" class="form__input-button-toggle-password">
+            <div class="toggle-password__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#eye-blue"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dashboard-form__button-submit">
+    <button type="button" class="button-link button-link--icon">
+      Save changes
+    </button>
+  </div>
+</form>
+
+          </div>
+          <div class="dashboard__content" id="tab2" style="display: none">
+            <div class="no-address">
+  <p class="no-address__text">
+    Add your delivery address for easy one-click shipping in the future
+  </p>
+  <div class="no-address__content">
+    <h3 class="no-address__title">Added address</h3>
+    <div class="no-address__content-block">
+      <div class="no-address-block__icon icon-box">
+        <svg>
+          <use href="./img/icons/icons.svg#bee-nofeedback"></use>
+        </svg>
+      </div>
+      <p class="no-address__message">No addresses have been added yet</p>
+      <p class="no-address__info">
+        You have not added any addresses yet. Enter in the form below, or
+        already fill in the appropriate delivery points when ordering the
+        product in the cart.
+      </p>
+    </div>
+  </div>
+</div>
+<form class="delivery-form">
+  <h3 class="delivery-form__title">Your shipping address</h3>
+  <div class="delivery-form__main">
+    <ul class="delivery-form__list">
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your Country*</label>
+          <input
+            type="text"
+            name="country"
+            class="dashboard-form__step-input"
+            placeholder="Ukraine"
+          />
+        </div>
+      </li>
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your City*</label>
+          <input
+            type="text"
+            name="city"
+            class="dashboard-form__step-input"
+            placeholder="Kyiv"
+          />
+        </div>
+      </li>
+      <li class="delivery-form__item group-info-address">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your Address*</label>
+          <input
+            type="text"
+            name="street"
+            class="dashboard-form__step-input"
+            placeholder="Khreshchatyk Street"
+          />
+        </div>
+        <div class="delivery-form__input-group">
+          <div class="dashboard-form__step-input-box shipping-address-desctop">
+            <label class="dashboard-form__step-label">House number*</label>
+            <input
+              type="text"
+              name="house number"
+              class="dashboard-form__step-input"
+              placeholder="22"
+            />
+          </div>
+          <div class="dashboard-form__step-input-box shipping-address-desctop">
+            <label class="dashboard-form__step-label">Apartment number</label>
+            <input
+              type="text"
+              name="apartment number"
+              class="dashboard-form__step-input"
+              placeholder="22"
+            />
+          </div>
+        </div>
+      </li>
+      <li class="delivery-form__item">
+        <div class="dashboard-form__step-input-box">
+          <label class="dashboard-form__step-label">Your ZIP code*</label>
+          <input
+            type="text"
+            name="zip code"
+            class="dashboard-form__step-input"
+            placeholder="01044"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="dashboard-form__button-submit">
+    <button type="button" class="button-link button-link--icon">
+      Save changes
+    </button>
+  </div>
+</form>
+
+          </div>
+          <div class="dashboard__content" id="tab3" style="display: none">
+            <div class="no-address">
+  <div class="no-address__content">
+    <h3 class="no-address__title">Your order history</h3>
+    <div class="no-address__content-block">
+      <div class="no-address-block__icon icon-box">
+        <svg>
+          <use href="./img/icons/icons.svg#bee-nofeedback"></use>
+        </svg>
+      </div>
+      <p class="no-address__message">Your order history is empty</p>
+      <p class="no-address__info">
+        Make an order in our store and then your orders will appear here
+      </p>
+      <div class="no-order-history__button-box">
+        <a href="#" class="button-link button-link--icon"> Make an order </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="order-history">
+  <h3 class="order-history__title">Your order history</h3>
+  <ul class="order-history__list">
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box blue">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box green">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box green">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box blue">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box blue">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box blue">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+    <li class="order-history__item">
+      <div class="order-history__item-head">
+        <div class="order-history__item-info">
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">884532</p>
+              <p class="order-history__item-data-name">Number Order</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">09.10.2023</p>
+              <p class="order-history__item-data-name">Date order</p>
+            </div>
+          </div>
+          <div class="order-history__item-data">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value">6 items</p>
+              <p class="order-history__item-data-name">Number Products</p>
+            </div>
+            <div class="order-history__item-data-box">
+              <div class="order-history__item-chip-box blue">
+                <p class="order-history__item-chip-value">In progress</p>
+              </div>
+              <p class="order-history__item-data-name">Status</p>
+            </div>
+          </div>
+          <div class="order-history__item-data space-between">
+            <div class="order-history__item-data-box">
+              <p class="order-history__item-data-value price">€ 429,73</p>
+              <p class="order-history__item-data-name">Total Price</p>
+            </div>
+            <div class="order-history__item-data-box button">
+              <button type="button" class="order-history__item-button-toggle">
+                <div class="order-history-button__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-right-white"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-history__item-main">
+        <ul class="order-history__dropdown-list">
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="order-history__dropdown-item">
+            <div class="order-history__dropdown-img-bg">
+              <div class="order-history__dropdown-img-box">
+                <img
+                  src="./img/product/block-images-img1.png"
+                  alt="product image from order history"
+                />
+              </div>
+            </div>
+            <div class="order-history__dropdown-info">
+              <div class="order-history__dropdown-product-info">
+                <p class="order-history__dropdown-product-name">
+                  Quiet book per bambini
+                </p>
+                <p class="order-history__dropdown-product-text">
+                  6 Facciate attività
+                </p>
+              </div>
+              <div class="order-history__dropdown-product-price">
+                <p class="order-history__dropdown-product-price-current">
+                  € 99
+                </p>
+                <div class="order-history__dropdown-product-price-box">
+                  <p class="order-history__dropdown-product-price-previous">
+                    € 108
+                  </p>
+                  <div class="order-history__dropdown-product-action">
+                    <p>-17%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="order-history__button-repeat-order">
+          <a href="#" class="button-link button-link--icon">
+            Repeat order this products
+          </a>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="order-history__pagination">
+    <div class="pagination">
+  <button type="button" class="pagination__button-arrow left">
+    <div class="pagination-block__icon icon-box">
+      <svg>
+        <use href="./img/icons/icons.svg#chevron-left-white"></use>
+      </svg>
+    </div>
+  </button>
+  <div class="pagination__button-box">
+    <ul class="pagination__button-list">
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">1</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">2</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">3</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">...</button>
+      </li>
+      <li class="pagination__button-item">
+        <button type="button" class="pagination__button">46</button>
+      </li>
+    </ul>
+  </div>
+  <button type="button" class="pagination__button-arrow right">
+    <div class="pagination-block__icon icon-box">
+      <svg>
+        <use href="./img/icons/icons.svg#chevron-right-white"></use>
+      </svg>
+    </div>
+  </button>
+</div>
+
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__content-head">
+        <div class="footer__content-logo-block">
+          <div class="footer__content-logo">
+            <a href="../index.html">
+              <div class="logo-block__footer-icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#logo"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <div class="footer__content-subscribe">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__nav-tablet nav-desctop">
+          <div class="nav-tablet__block">
+            <h3 class="nav-tablet__list-title">Categories</h3>
+            <ul class="nav-tablet__list">
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Quiet Books</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Amigurumi</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Giocattoli in legno</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Schede sensoriali</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">Busy Cube</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link">In SALDO</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="#" class="nav-tablet__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-tablet__block right-block">
+            <h3 class="nav-tablet__list-title">Company</h3>
+            <ul class="nav-tablet__list right-block">
+              <li class="nav-tablet__item">
+                <a href="./about.html" class="nav-tablet__link">About SofyBee</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="./blog.html" class="nav-tablet__link">Blog</a>
+              </li>
+              <li class="nav-tablet__item">
+                <a href="./contacts.html" class="nav-tablet__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__content-contacts footer-contacts">
+          <div class="footer__content-subscribe desctop">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a href="tel:+393883675950" class="footer-contacts__tel"
+            >+3 938 836 759 50</a
+          >
+          <a href="mailto:sofybee1@gmail.com" class="footer-contacts__mail"
+            >sofybee1@gmail.com</a
+          >
+          <address class="footer-contacts__address-block">
+            <p class="footer-contacts__address">
+              Italy, Via di Valle Melaina, 149
+            </p>
+          </address>
+        </div>
+      </div>
+      <div class="footer__content-nav-menu">
+        <div class="footer__nav-menu-block">
+          <button type="button" class="footer__nav-menu-button">
+            <p class="footer__nav-menu-value">Categories</p>
+            <div class="icon-box footer__nav-menu-icon">
+              <svg>
+                <use href="./img/icons/icons.svg#arrow-down-circle"></use>
+              </svg>
+            </div>
+          </button>
+          <div class="footer__nav-menu-dropdown">
+            <ul class="footer__nav-menu-dropdown-list">
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Quiet Books</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Amigurumi</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Giocattoli in legno</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Schede sensoriali</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Busy Cube</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">In SALDO</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="#" class="footer__nav-menu-dropdown-link">Quiet Books Personalizzati</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__nav-menu-block">
+          <button type="button" class="footer__nav-menu-button">
+            <p class="footer__nav-menu-value">Company</p>
+            <div class="icon-box footer__nav-menu-icon">
+              <svg>
+                <use href="./img/icons/icons.svg#arrow-down-circle"></use>
+              </svg>
+            </div>
+          </button>
+          <div class="footer__nav-menu-dropdown">
+            <ul class="footer__nav-menu-dropdown-list">
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./about.html" class="footer__nav-menu-dropdown-link">About SofyBee</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./blog.html" class="footer__nav-menu-dropdown-link">Blog</a>
+              </li>
+              <li class="footer__nav-menu-dropdown-item">
+                <a href="./contacts.html" class="footer__nav-menu-dropdown-link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__nav-tablet nav-tablet">
+        <div class="nav-tablet__block">
+          <h3 class="nav-tablet__list-title">Categories</h3>
+          <ul class="nav-tablet__list">
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Quiet Books</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Amigurumi</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Giocattoli in legno</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Schede sensoriali</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Busy Cube</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">In SALDO</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link"
+                >Quiet Books Personalizzati</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav-tablet__block right-block">
+          <h3 class="nav-tablet__list-title">Company</h3>
+          <ul class="nav-tablet__list right-block">
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">About SofyBee</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Blog</a>
+            </li>
+            <li class="nav-tablet__item">
+              <a href="#" class="nav-tablet__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__sub-footer">
+      <div class="sub-footer__buttons">
+        <ul class="nav-list footer-nav-list">
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link"
+              >Termini e condizioni</a
+            >
+          </li>
+          <li class="nav-list__item footer-nav-item">
+            <a href="#" class="nav-list__link footer-nav-link">Sitemap</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-footer__payment payment">
+        <ul class="payment__list">
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#stripe-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#paypal-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#mastercard-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#visa-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#discover-payment"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="payment__item">
+            <div class="icon-box payment__icon">
+              <svg>
+                <use href="./img/icons/icons.svg#amex-payment"></use>
+              </svg>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="sub-footer__text-block">
+        <p class="sub-footer__text">
+          &copy; Diritto d'autore 2023 SofyBee. Tutti i diritti riservati.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="mobile-menu js-menu-container">
+  <header>
+  <div class="header-container">
+    <div class="container">
+      <div class="header__top top-header">
+        <div class="top-header__info-block">
+          <p class="top-header__info">
+            Lorem ipsum dolor sit amet consectetur. Molestie vel neque ipsum
+            risus mattis netus amet. Eget lectus pellentesque fermentum.
+          </p>
+          <a
+            href="#"
+            class="top-header__link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Learn More</a
+          >
+        </div>
+        <div class="top-header__button-block">
+          <button type="button" class="top-header__button">
+            <div class="icon-box icon-close">
+              <svg width="24" height="24">
+                <use href="./img/icons/icons.svg#x"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="header__body body-header">
+        <div class="body-header__left-panel">
+          <div class="body-header__nav">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="./about.html" class="nav-list__link">About SofyBee</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./blog.html" class="nav-list__link">Blog</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="./contacts.html" class="nav-list__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="body-header__subscribe-block subscribe-block">
+            <ul class="subscribe__list">
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--red">
+                  <svg width="18" height="18" class="icon-youToube">
+                    <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--green">
+                  <svg width="18" height="18" class="icon-whatsApp">
+                    <use href="./img/icons/icons.svg#whatsApp"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--blue">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#facebookMono"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="subscribe__item">
+                <a href="#" class="subscribe__icon subscribe__icon--violette">
+                  <svg width="18" height="18">
+                    <use href="./img/icons/icons.svg#instagramMono"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="body-header__mobile-menu header-menu-mob">
+          <button type="button" class="header-menu-mob__button js-open-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#burgerMenu"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Menu</p>
+          </button>
+          <button type="button" class="header-menu-mob__button js-close-menu">
+            <div class="header-menu-mob__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-red"></use>
+              </svg>
+            </div>
+            <p class="header-menu-mob__value">Close</p>
+          </button>
+        </div>
+        <div class="body-header__logo-block logo-block">
+          <a href="../index.html">
+            <div class="logo-block__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#logo"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="body-header__right-panel">
+          <div class="body-header__select">
+            <div class="select">
+              <button type="button" class="select__button">
+                <p class="select__selected-value">Italiano</p>
+                <div class="select__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="select__list-box">
+                <ul class="select__list">
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                    <li class="select__item">
+                        <button type="button" class="select__item-button">SelectItem</button>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          <div class="body-header__search-block search-block">
+            <button type="button" class="search-block__button js-open-menu2">
+              <div class="search-block__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#search-blue"></use>
+                </svg>
+              </div>
+              <div class="search-block__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x"></use>
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div class="body-header__bascket bascket">
+            <button type="button" class="bascket__button">
+              <div class="bascket__icon-wrapper">
+                <div class="bascket__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#bag-orange"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="bascket__selected-value">0</p>
+            </button>
+          </div>
+          <div class="body-header__authorization authorization">
+            <button type="button" class="authorization__button">
+              <div class="authorization__icon-wrapper">
+                <div class="authorization__icon icon-box">
+                  <svg>
+                    <use href="./img/icons/icons.svg#user-blue"></use>
+                  </svg>
+                </div>
+              </div>
+              <p class="authorization__value">Login/Registration</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__footer">
+      <div class="container">
+        <div class="header__footer-content">
+          <div class="header-footer__menu-nav">
+            <ul class="nav-list header-footer__nav-list">
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Amigurumi</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Giocattoli in legno</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Schede sensoriali</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Busy Cube</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >In SALDO</a
+                >
+              </li>
+              <li class="nav-list__item header-footer__nav-list-item">
+                <a href="#" class="nav-list__link header-footer__link"
+                  >Quiet Books Personalizzati</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-footer__menu-mob">
+            <button type="button" class="header-menu-mob__button js-open-menu">
+              <div class="header-menu-mob__icon open icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#burgerMenu"></use>
+                </svg>
+              </div>
+              <div class="header-menu-mob__icon close icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#x-white"></use>
+                </svg>
+              </div>
+              <p class="header-menu-mob__value">Menu</p>
+            </button>
+          </div>
+          <div class="header-footer__link-box">
+            <a href="./builder.html" class="header-footer__link"
+              >Quiet Book Personalizzati</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="container">
+    <div class="mobile-menu__content">
+      <div class="mobile-menu__head">
+        <div class="mobile-menu__auth-button-box">
+          <a href="#" class="button-link button-link--icon">
+            <div class="button-link__icon-box icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#user-blue"></use>
+              </svg>
+            </div>
+            Login/Registration
+          </a>
+        </div>
+        <div class="mobile-menu__select">
+          <div class="select">
+            <button type="button" class="select__button">
+              <p class="select__selected-value">Italiano</p>
+              <div class="select__icon icon-box">
+                <svg>
+                  <use href="./img/icons/icons.svg#chevron-down-blue"></use>
+                </svg>
+              </div>
+            </button>
+            <div class="select__list-box">
+              <ul class="select__list">
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+                <li class="select__item">
+                  <button type="button" class="select__item-button">
+                    SelectItem
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu__search-box js-open-menu2">
+        <div class="input-group">
+          <div class="input-group__input-container">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="input-group__input"
+              placeholder="Search"
+            />
+            <div class="input-group__icon right icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#search-blue"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu__main">
+        <div class="mobile-menu__main-button">
+          <a href="#" class="button-link button-link--icon">
+            Quiet Book Personalizzati
+          </a>
+        </div>
+        <div class="mobile-menu__categories-box">
+            <ul class="mobile-menu__categories-list">
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Quiet Books</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Amigurumi</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Giocattoli in legno</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Schede sensoriali</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Busy Cube</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">In SALDO</a>
+                </li>
+                <li class="mobile-menu__categories-item">
+                    <a href="#" class="mobile-menu__categories-link">Quiet Books Personalizzati</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu__company-box">
+            <ul class="mobile-menu__company-list">
+                <li class="mobile-menu__company-item">
+                    <a href="./about.html" class="mobile-menu__company-link">About SofyBee</a>
+                </li>
+                <li class="mobile-menu__company-item">
+                    <a href="./blog.html" class="mobile-menu__company-link">Blog</a>
+                </li>
+                <li class="mobile-menu__company-item">
+                    <a href="./contacts.html" class="mobile-menu__company-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div class="mobile-menu__footer">
+        <ul class="subscribe__list">
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--red">
+                <svg width="18" height="18" class="icon-youToube">
+                  <use href="./img/icons/icons.svg#youTubeHeader"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--green">
+                <svg width="18" height="18" class="icon-whatsApp">
+                  <use href="./img/icons/icons.svg#whatsApp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--blue">
+                <svg width="18" height="18">
+                  <use href="./img/icons/icons.svg#facebookMono"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="subscribe__item">
+              <a href="#" class="subscribe__icon subscribe__icon--violette">
+                <svg width="18" height="18">
+                  <use href="./img/icons/icons.svg#instagramMono"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="mobile-search-page js-menu2-container">
+  <div class="container mobile-search-page__container">
+    <div class="mobile-search__button js-close-menu2">
+      <button type="button" class="button-link button-link--icon">
+        Close
+        <div class="button-link__icon-box icon-box">
+          <svg>
+            <use href="./img/icons/icons.svg#x"></use>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div class="mobile-search__main">
+      <div class="mobile-search__box">
+        <div class="input-group">
+          <div class="input-group__input-container">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="input-group__input"
+              placeholder="Categories, products..."
+            />
+            <div class="input-group__icon right icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#search-blue"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="desctop-search__button-close-box">
+          <button type="button" class="desctop-search__button-close js-close-menu2">
+            <div class="desctop-search-button-close__icon icon-box">
+              <svg>
+                <use href="./img/icons/icons.svg#x-white"></use>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-search__categories-box">
+        <h3 class="mobile-search__categories-title">Categories</h3>
+        <ul class="mobile-search__categories-list">
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Quiet Books</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Amigurumi</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Giocattoli in legno</a
+            >
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Schede sensoriali</a
+            >
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">Busy Cube</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link">In SALDO</a>
+          </li>
+          <li class="mobile-search__categories-item">
+            <a href="#" class="mobile-search__categories-link"
+              >Quiet Books Personalizzati</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/app.min.js?_v=20240126105120"></script>
+  </body>
+</html>

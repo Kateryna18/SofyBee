@@ -1,0 +1,237 @@
+.filter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+.filter__head {
+  width: 100%;
+}
+.filter__head-top {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+// .filter__head-top {
+//   margin-bottom: 12px;
+// }
+.filter__title-main {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 124%;
+}
+.filter__head-button-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--primary-orange);
+
+  & .filter-head-button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .filter__head-button-close {
+    display: none;
+  }
+}
+
+.filter__head-chip {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.filter-chip {
+}
+.filter-chip__button {
+  display: flex;
+  padding: 4px 7px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 14px;
+  background-color: var(--primary-orange);
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--defaul-10);
+}
+.filter-chip__icon {
+  width: 18px;
+  height: 18px;
+}
+
+// 
+.filter__price {
+  width: 100%;
+}
+.filter-item__head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.filter__title {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--primary-blue);
+}
+.filter__price-button {
+  background-color: transparent;
+}
+.filter-price-button__icon {
+  width: 22px;
+  height: 22px;
+}
+.filter__item-dropdown {
+  display: none;
+}
+.filter__block-item.is-open .filter__item-dropdown {
+  width: 100%;
+  display: flex;
+}
+
+//////Filter Price////////
+.filter__price {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.filter-price__inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.filter-price__label {
+  position: relative;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-blue-white);
+}
+.filter-price__valute {
+  position: absolute;
+  right: 23px;
+}
+.filter-price__input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 8px 6px;
+  padding-left: 22px;
+  border: none;
+  background-color: transparent;
+
+  font-family: var(--secondary-font-family);
+}
+.filter-price__slider {
+  &.noUi-target {
+    width: 100%;
+    height: 4px;
+    background-color: var(--primary-blue-white);
+    box-shadow: none;
+  }
+
+  // & .noUi-base {
+  //   width: 220px;
+  //   min-width: 220px;
+  // }
+
+  & .noUi-connect {
+    background-color: var(--primary-blue);
+  }
+
+  & .noUi-handle {
+    width: 12px;
+    height: 12px;
+    right: -7px;
+    border-radius: 50%;
+    background-color: var(--primary-orange);
+    box-shadow: none;
+    border: none;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+// Filter Checkbox
+.filter__checkbox-block {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.filter__checkbox-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.filter__checkbox-item {
+  width: 100%;
+}
+.filter__checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.filter__checkbox {
+  box-sizing: content-box;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-blue-white);
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 1280px) {
+  .filter__checkbox {
+    width: 12px;
+    height: 12px;
+  }
+}
+.filter__checkbox-item.active .filter__checkbox > .filter__checkbox--checked {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: var(--primary-blue);
+}
+@media screen and (min-width: 1280px) {
+  .filter__checkbox-item.active .filter__checkbox > .filter__checkbox--checked {
+    width: 8px;
+    height: 8px;
+  }
+}
+.filter__checkbox-text {
+  line-height: 180%;
+  user-select: none;
+}

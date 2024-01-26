@@ -1,0 +1,58 @@
+.select {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.select__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 10px;
+  background-color: transparent;
+}
+.select__selected-value {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(19.2 / 14);
+}
+.select__icon {
+  width: 24px;
+  height: 24px;
+  transition: var(--main-transition);
+}
+.select.is-open .select__icon {
+  transform: rotate(180deg);
+}
+
+.select__list-box {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: -208px;
+  z-index: 10;
+}
+.select__list {
+  display: flex;
+  width: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: var(--defaul-10);
+}
+.select.is-open .select__list-box {
+  display: block;
+}
+.select__item {
+}
+.select__item-button {
+  display: flex;
+  height: 40px;
+  padding: 0px 14px;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+
+  font-weight: 500;
+}
