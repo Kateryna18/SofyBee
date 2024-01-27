@@ -7,16 +7,68 @@
     )
     no-repeat;
   background-size: 100% 180px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    z-index: -10;
+    width: 906px;
+    height: 84px;
+    left: -236px;
+    top: 8px;
+  }
+
+  &::before {
+    content: url("../img/icons/icons.svg#vector-yellow-m");
+  }
+
+  &::after {
+    content: url("../img/icons/icons.svg#vector-orange-m");
+  }
 }
 @media screen and (min-width: 744px) {
   .main-general.dashboard__main {
     background-size: 100% 210px;
+
+    &::before,
+    &::after {
+      width: 1309px;
+      height: 84px;
+      left: -307px;
+      top: -17px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-m");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-m");
+    }
   }
 }
 @media screen and (min-width: 1280px) {
   .main-general.dashboard__main {
     padding-bottom: 140px;
     background-size: 100% 260px;
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
+
+    &::before,
+    &::after {
+      z-index: -10;
+      width: 1714px;
+      height: 279px;
+      left: auto;
+      right: -356px;
+      top: -7px;
+    }
   }
 }
 

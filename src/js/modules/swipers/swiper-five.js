@@ -6,6 +6,7 @@ const optionsSwiper = {
   slidesPerView: "auto",
   spaceBetween: 10,
   grabCursor: true,
+  centerInsufficientSlides: true,
 }
 
 const preFooterSwiper = document.querySelector(".swiper__five");

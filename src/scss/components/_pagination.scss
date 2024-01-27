@@ -60,9 +60,9 @@
     background-color: var(--bg-blue-white-80);
   }
 
-  &:active{
+  &:active, &.current{
       background-color: var(--primary-blue);
-        color: var(--defaul-10);
+      color: var(--defaul-10);
   }
 }
 .right {

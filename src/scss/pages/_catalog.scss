@@ -11,32 +11,64 @@
 
   &::before,
   &::after {
-    content: "";
     position: absolute;
-    left: -29px;
+    z-index: -10;
+    width: 836px;
+    height: 84px;
+    left: -236px;
     top: -12px;
-    width: 424px;
-    height: 98px;
   }
 
   &::before {
-    background: url("../img/icons/icons.svg#bg-decor-yellow-lg") no-repeat;
+    content: url("../img/icons/icons.svg#vector-yellow-m");
   }
 
   &::after {
-    height: 84px;
-    background: url("../img/icons/icons.svg#bg-decor-orange-lg") no-repeat;
+    content: url("../img/icons/icons.svg#vector-orange-m");
   }
 }
 @media screen and (min-width: 744px) {
   .quiet-books-page {
     background-size: 100% 210px;
+
+    &::before,
+    &::after {
+      width: 1245px;
+      height: 84px;
+      left: -264px;
+      top: -12px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-m");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-m");
+    }
   }
 }
 @media screen and (min-width: 1280px) {
   .quiet-books-page {
     padding-bottom: 140px;
     background-size: 100% 260px;
+
+    &::before,
+    &::after {
+      width: 2152px;
+      height: 279px;
+      left: auto;
+      right: -356px;
+      top: -45px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
   }
 }
 
@@ -186,7 +218,7 @@
 }
 @media screen and (min-width: 1280px) {
   .block-gradient.product-banner {
-    background: linear-gradient(0deg, #1D4688 30.94%, rgba(29, 70, 136, 0.00) 56%);
+    background: linear-gradient(0deg, #1d4688 30.94%, rgba(29, 70, 136, 0) 56%);
   }
 }
 .quiet-books__catalog {
@@ -230,13 +262,13 @@
   background-color: var(--bg-brown-white-50);
   transition: var(--main-transition);
 
-    &:hover{
-        background-color: var(--bg-brown-white);
-    }
-    &:focus{
-        border: 3px solid var(--primary-pink-white);
-        background-color: var(--bg-brown-white);
-    }
+  &:hover {
+    background-color: var(--bg-brown-white);
+  }
+  &:focus {
+    border: 3px solid var(--primary-pink-white);
+    background-color: var(--bg-brown-white);
+  }
 }
 @media screen and (min-width: 744px) {
   .card.quiet-books__catalog-card {
@@ -333,8 +365,7 @@
   }
 }
 
-
-.filter-block-mobile{
+.filter-block-mobile {
   position: fixed;
   top: 0;
   left: 0;
@@ -353,13 +384,13 @@
 }
 
 @media screen and (min-width: 744px) {
-  .filter-block-mobile{
+  .filter-block-mobile {
     padding: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .filter-block-mobile{
+  .filter-block-mobile {
     display: none;
   }
 }

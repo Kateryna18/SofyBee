@@ -49,6 +49,11 @@
     background-color: var(--primary-blue);
     color: var(--defaul-10);
   }
+
+  &.current{
+    background-color: var(--primary-blue);
+    color: var(--defaul-10);
+  }
 }
 
 .nav-list__link.header-footer__link{

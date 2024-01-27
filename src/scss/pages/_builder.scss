@@ -9,15 +9,79 @@
     )
     no-repeat;
   background-size: 100% 190px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    z-index: -10;
+    width: 906px;
+    height: 84px;
+    left: -236px;
+    top: 8px;
+  }
+
+  &::before {
+    content: url("../img/icons/icons.svg#vector-yellow-m");
+  }
+
+  &::after {
+    content: url("../img/icons/icons.svg#vector-orange-m");
+  }
 }
 @media screen and (min-width: 744px) {
   .builder {
     background-size: 100% 210px;
+
+    &::before,
+    &::after {
+      width: 989px;
+      height: 84px;
+      left: -75px;
+      top: 14px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
   }
 }
 @media screen and (min-width: 1280px) {
   .builder {
     background-size: 100% 260px;
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
+
+    &::before,
+    &::after {
+      z-index: -10;
+      width: 1714px;
+      height: 279px;
+      left: auto;
+      right: -356px;
+      top: -7px;
+    } 
+  }
+}
+@media screen and (min-width: 1560px) {
+  .builder {
+    &::before,
+    &::after {
+      width: 1912px;
+      right: 150px;
+      top: -25px;
+    }
+
+    
   }
 }
 

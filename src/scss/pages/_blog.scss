@@ -1,5 +1,12 @@
+.blog__breadcrumbs{
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 744px) {
+  .blog__breadcrumbs{
+    margin-bottom: 40px;
+  }
+}
 .blog {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;

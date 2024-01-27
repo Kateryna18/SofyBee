@@ -7,16 +7,69 @@
     )
     no-repeat;
   background-size: 100% 180px;
-}
-@media screen and (min-width: 744px) {
-  .main-general.contacts-us {
-    background-size: 100% 210px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    // z-index: -10;
+    width: 906px;
+    height: 84px;
+    left: -236px;
+    top: -29px;
+    opacity: 1;
+  }
+
+  &::before {
+    content: url("../img/icons/icons.svg#vector-yellow-m");
+  }
+
+  &::after {
+    content: url("../img/icons/icons.svg#vector-orange-m");
   }
 }
 @media screen and (min-width: 744px) {
   .main-general.contacts-us {
+    background-size: 100% 210px;
+
+    &::before,
+    &::after {
+      width: 1245px;
+      height: 84px;
+      left: -264px;
+      top: 0;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-general.contacts-us {
     padding-bottom: 140px;
     background-size: 100% 260px;
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
+
+    &::before,
+    &::after {
+      z-index: -10;
+      width: 1714px;
+      height: 279px;
+      left: auto;
+      right: -356px;
+      top: -7px;
+    }
   }
 }
 .contacts__breadcrumbs {
@@ -40,9 +93,13 @@
     margin-bottom: 65px;
   }
 }
-.section-title.contacts__title {
-  font-size: 32px;
+
+@media screen and (min-width: 1280px) {
+  .section-title.contacts__title {
+    font-size: 32px;
+  }
 }
+
 .contacts {
 }
 .container.contacts-content__container {
@@ -79,6 +136,9 @@
   }
 }
 
+.contacts__info-description {
+  line-height: 160%;
+}
 @media screen and (min-width: 744px) {
   .contacts__info-description {
     width: 420px;
@@ -353,6 +413,11 @@
   border-radius: 10px;
   background-color: var(--bg-brown-white-50);
 }
+@media screen and (min-width: 744px) {
+  .contacts__form-user-block {
+    border-radius: 20px;
+  }
+}
 .contacts__form-user-avatar {
   width: 80px;
   height: 80px;
@@ -443,7 +508,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: calc(2186 / 16);
+  line-height: calc(21.86 / 16);
   color: var(--primary-blue);
 
   &::placeholder {

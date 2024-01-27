@@ -113,3 +113,14 @@ if (topHeaderButtons.length) {
     topHeaderNew.addEventListener("click", () => toggleClass(topHeaderNew))
   );
 }
+
+//----------------HEADER CURRENT LINK-------------//
+const currentUrl = window.location.href;
+
+const navLinks = document.querySelectorAll('.nav-list__link');
+
+  navLinks.forEach((link) => {
+    if (link.href === currentUrl) {
+      link.classList.add('current');
+    }
+  });

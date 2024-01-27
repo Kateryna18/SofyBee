@@ -1,5 +1,5 @@
 //////СПІЛЬНИЙ КОНТЕНТ ДЛЯ СТОРІНОК LOGIN, REGISTER, FORGOT PASSWORD
-.main-general {
+.main-general.main__login {
 }
 .backdrop {
 }
@@ -8,22 +8,77 @@
 .container {
 }
 .modal {
+  position: relative;
   padding: 50px 12px 20px 12px;
   border-radius: 30px;
   background-color: var(--bg-brown-white);
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    position: absolute;
+    z-index: 10;
+    width: 1494px;
+    height: 84px;
+    left: -319px;
+    top: 51px;
+  }
+
+  &::before {
+    content: url("../img/icons/icons.svg#vector-yellow-s");
+  }
+
+  &::after {
+    content: url("../img/icons/icons.svg#vector-orange-s");
+  }
 }
 @media screen and (min-width: 744px) {
   .modal {
     padding: 14px 12px 20px 12px;
+
+    &::before,
+    &::after {
+      width: 1330px;
+      height: 84px;
+      left: -129px;
+      top: 110px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-s");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-s");
+    }
   }
 }
 @media screen and (min-width: 1280px) {
   .modal {
     padding: 26px 80px 140px 80px;
+
+    &::before,
+    &::after {
+      width: 1920px;
+      height: 84px;
+      left: -335px;
+      top: 259px;
+    }
+
+    &::before {
+      content: url("../img/icons/icons.svg#vector-yellow-l");
+    }
+
+    &::after {
+      content: url("../img/icons/icons.svg#vector-orange-l");
+    }
   }
 }
 
 .modal-content {
+  position: relative;
+  z-index: 15;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -127,7 +182,7 @@
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
 
-      &.inactive{
+      &.inactive {
         color: var(--defaul-100);
       }
     }
@@ -136,12 +191,12 @@
       border-bottom-left-radius: 0;
       color: var(--defaul-10);
 
-      &.inactive{
+      &.inactive {
         color: var(--defaul-100);
       }
     }
 
-    &.inactive{
+    &.inactive {
       background-color: var(--defaul-10);
     }
   }
@@ -252,23 +307,27 @@
   }
 }
 
-.form__input-with-button{
+.form__input-with-button {
   width: 100%;
   position: relative;
 }
 @media screen and (min-width: 1280px) {
-  .form__input-with-button{
+  .form__input-with-button {
     width: fit-content;
+
+    &.login{
+      width: 100%;
+    }
   }
 }
-.form__input-button-toggle-password{
+.form__input-button-toggle-password {
   position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
   background-color: transparent;
 }
-.toggle-password__icon{
+.toggle-password__icon {
   width: 26px;
   height: 26px;
 }
@@ -292,15 +351,15 @@
     opacity: 0.6;
   }
 
-  &:hover{
+  &:hover {
     border: 1px solid var(--primary-blue);
   }
 
-  &:focus{
+  &:focus {
     border: 3px solid var(--primary-blue-white);
   }
 
-  &.error{
+  &.error {
     border: 1px solid var(--bg-red);
   }
 }

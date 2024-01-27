@@ -42,6 +42,11 @@
     width: calc(33.33% - 40px);
   }
 }
+@media screen and (min-width: 1560px) {
+  .catalog__item {
+    width: 100%;
+  }
+}
 
 .catalog__link {
   padding: 12px;
