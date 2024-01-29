@@ -3948,6 +3948,10 @@ button {
   overflow: hidden;
 }
 
+.backdrop.forgot-rassword {
+  height: 100vh;
+}
+
 .backdrop .decor-icon1,
 .backdrop .decor-icon2,
 .backdrop .decor-icon3 {
@@ -11384,7 +11388,7 @@ footer::after {
   .builder::before,
   .builder::after {
     z-index: -10;
-    width: 1714px;
+    width: 1923px;
     height: 279px;
     left: auto;
     right: -356px;
@@ -11604,14 +11608,15 @@ footer::after {
     padding: 0 24px 24px 24px;
   }
 
-  .backdrop {
-    height: 100vh;
-  }
-
   .backdrop .decor-icon1 {
     left: 495px;
     top: 279px;
     z-index: 20;
+  }
+
+  .backdrop .decor-icon1.forgot-rassword {
+    left: 344px;
+    top: 93px;
   }
 
   .backdrop .decor-icon2 {
@@ -12509,6 +12514,10 @@ footer::after {
   .main-general.contacts-us .decor-icon9 {
     left: -37px;
     bottom: 208px;
+  }
+
+  .backdrop {
+    height: 100vh;
   }
 
   .backdrop .decor-icon1 {
