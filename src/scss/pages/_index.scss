@@ -129,6 +129,7 @@
 }
 @media screen and (min-width: 1280px) {
   .banner__main {
+    left: 40px;
     width: 617px;
     padding: 26px;
     border-radius: 32px;
@@ -682,7 +683,8 @@
       display: none;
     }
 
-    &.decor-icon6, &.decor-icon7 {
+    &.decor-icon6,
+    &.decor-icon7 {
       display: none;
     }
   }
@@ -1269,6 +1271,7 @@
 @media screen and (min-width: 1280px) {
   .swiper.swiper__four {
     width: 1310px;
+    overflow: visible;
   }
 }
 .swiper-wrapper.swiper-wrapper__four {
@@ -1302,19 +1305,34 @@
       position: static;
       margin-top: 0;
     }
-
-    // & .swiper-button-prev.swiper-button-prev__four{
-    //   left: -20px;
-    // }
-
-    // & .swiper-button-next.swiper-button-next__four{
-    //   right: -20px;
-    // }
   }
 }
 @media screen and (min-width: 744px) {
   .swiper-buttons__two.swiper-buttons__two--four {
     display: flex;
+  }
+}
+@media screen and (min-width: 1560px) {
+  .swiper-buttons__two.swiper-buttons__two--four {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+
+    & .swiper-button-prev.swiper-button-prev__four {
+      position: absolute;
+      left: -56px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    & .swiper-button-next.swiper-button-next__four {
+      position: absolute;
+      right: -56px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
 }
 .reviews-content {

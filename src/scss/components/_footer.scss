@@ -334,6 +334,23 @@ footer::after {
   .footer__sub-footer {
     padding: 16px 20px;
     justify-content: space-between;
+    align-items: center;
+  }
+}
+.sub-footer__text-desctop-block{
+  display: none;
+
+  &>.sub-footer__text-block{
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sub-footer__text-desctop-block{
+    display: flex;
+    &>.sub-footer__text-block{
+      display: flex;
+      align-items: center;
+    }
   }
 }
 .sub-footer__buttons {
@@ -383,6 +400,11 @@ footer::after {
 .payment__icon {
   width: 34px;
   height: 24px;
+}
+@media screen and (min-width: 1280px) {
+  .sub-footer__text-block{
+    display: none;
+  }
 }
 .sub-footer__text {
   text-align: center;

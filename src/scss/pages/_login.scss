@@ -1,18 +1,227 @@
 //////СПІЛЬНИЙ КОНТЕНТ ДЛЯ СТОРІНОК LOGIN, REGISTER, FORGOT PASSWORD
 .main-general.main__login {
+  padding: 0 12px 12px 12px;
 }
+
+@media screen and (min-width: 1280px) {
+  .main-general.main__login {
+    padding: 0 24px 24px 24px;
+  }
+}
+
 .backdrop {
+  position: relative;
+  background-color: var(--bg-brown-white);
+  border-radius: 0px 0px 30px 30px;
+  overflow: hidden;
+
+  & .decor-icon1,
+  & .decor-icon2,
+  & .decor-icon3 {
+    display: none;
+  }
+
+  & .decor-icon4 {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    bottom: 52px;
+  }
+
+  & .decor-icon5 {
+    display: inline-block;
+    width: 67.725px;
+    height: 63.965px;
+    left: 333px;
+    bottom: 7px;
+  }
+
+  & .decor-icon6 {
+    display: inline-block;
+    width: 43px;
+    height: 46px;
+    left: 55px;
+    bottom: 4px;
+  }
+
+  & .decor-icon7 {
+    display: inline-block;
+    width: 86.262px;
+    height: 114.297px;
+    transform: rotate(31.267deg);
+    left: 320px;
+    top: 34.533px;
+    opacity: 0.6;
+    filter: blur(5.5px);
+  }
+
+  & .decor-icon8 {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    right: -6px;
+    bottom: 295px;
+  }
+
+  & .decor-icon9 {
+    display: none;
+  }
 }
+
+@media screen and (min-width: 744px) {
+  .backdrop {
+    height: auto;
+
+    & .decor-icon2,
+    & .decor-icon3 {
+      display: none;
+    }
+
+    & .decor-icon1 {
+      display: inline-block;
+      width: 53px;
+      height: 54px;
+      left: 23px;
+      top: 161px;
+    }
+
+    & .decor-icon4 {
+      left: 12px;
+      bottom: 52px;
+    }
+
+    & .decor-icon5 {
+      left: 673px;
+      top: 775px;
+    }
+
+    & .decor-icon6 {
+      left: 220px;
+      bottom: -33px;
+    }
+
+    & .decor-icon7 {
+      left: 645.556px;
+      top: 65.768px;
+    }
+
+    & .decor-icon8 {
+      right: 16px;
+      bottom: 238px;
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .backdrop {
+    height: 100vh;
+
+    & .decor-icon1 {
+      left: 495px;
+      top: 279px;
+      z-index: 20;
+    }
+
+    & .decor-icon2 {
+      display: inline-block;
+      width: 38px;
+      height: 39px;
+      left: 151px;
+      top: 427px;
+      z-index: 20;
+    }
+
+    & .decor-icon3 {
+      display: inline-block;
+      width: 79px;
+      height: 79px;
+      left: 66px;
+      bottom: 12px;
+      z-index: 20;
+    }
+
+    & .decor-icon4 {
+      right: auto;
+      top: auto;
+      left: 12px;
+      bottom: -8px;
+    }
+
+    & .decor-icon5 {
+      left: 1115px;
+      top: 766px;
+    }
+
+    & .decor-icon6 {
+      left: 572px;
+      bottom: 162px;
+    }
+
+    & .decor-icon7 {
+      left: 1168px;
+      top: 268px;
+    }
+
+    & .decor-icon8 {
+      right: auto;
+      bottom: auto;
+      left: 9px;
+      top: 316px;
+    }
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  .backdrop {
+    & .decor-icon1 {
+      left: 588px;
+    }
+
+    & .decor-icon2 {
+      left: 213px;
+    }
+
+    & .decor-icon3 {
+      left: 134px;
+      bottom: 212px;
+    }
+
+    & .decor-icon4 {
+      bottom: 158px;
+    }
+
+    & .decor-icon5 {
+      left: 1429px;
+      top: 256px;
+    }
+
+    & .decor-icon6 {
+      left: 720px;
+      bottom: 430px;
+    }
+
+    & .decor-icon8 {
+      left: 70px;
+    }
+  }
+}
+
 .is-hidden {
 }
-.container {
+
+.container.login__container {
+  padding: 0;
+  position: relative;
+  // overflow: hidden;
 }
+
 .modal {
   position: relative;
   padding: 50px 12px 20px 12px;
   border-radius: 30px;
-  background-color: var(--bg-brown-white);
-  overflow: hidden;
+  // background-color: var(--bg-brown-white);
+  // overflow: hidden;
 
   &::before,
   &::after {
@@ -32,6 +241,7 @@
     content: url("../img/icons/icons.svg#vector-orange-s");
   }
 }
+
 @media screen and (min-width: 744px) {
   .modal {
     padding: 14px 12px 20px 12px;
@@ -53,18 +263,18 @@
     }
   }
 }
+
 @media screen and (min-width: 1280px) {
   .modal {
     padding: 26px 80px 140px 80px;
 
     &::before,
     &::after {
-      width: 1920px;
+      width: 2165px;
       height: 84px;
       left: -335px;
       top: 259px;
     }
-
     &::before {
       content: url("../img/icons/icons.svg#vector-yellow-l");
     }
@@ -83,17 +293,20 @@
   flex-direction: column;
   gap: 60px;
 }
+
 @media screen and (min-width: 744px) {
   .modal-content {
     gap: 140px;
   }
 }
+
 /////REGISTER STYLE/////////
 @media screen and (min-width: 744px) {
   .modal-content.register {
     gap: 80px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .modal-content {
     gap: 60px;
@@ -107,6 +320,7 @@
     gap: 100px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .modal__header {
     width: 50%;
@@ -130,9 +344,11 @@
     height: 22px;
   }
 }
+
 .logo-block__icon {
   display: none;
 }
+
 @media screen and (min-width: 744px) {
   .logo-block__icon {
     width: 92px;
@@ -140,17 +356,20 @@
     display: block;
   }
 }
+
 .modal__main {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+
 @media screen and (min-width: 744px) {
   .modal__main {
     align-items: center;
     gap: 40px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .modal__main {
     gap: 50px;
@@ -164,11 +383,13 @@
   border-radius: 30px;
   border: 2px solid var(--secondary-peach);
 }
+
 @media screen and (min-width: 744px) {
   .modal__main-buttons {
     width: 440px;
   }
 }
+
 .modal__main-button {
   width: 100%;
   height: 48px;
@@ -186,6 +407,7 @@
         color: var(--defaul-100);
       }
     }
+
     &.signup {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
@@ -211,9 +433,11 @@
     gap: 80px;
   }
 }
+
 .modal__main-img-box {
   display: none;
 }
+
 @media screen and (min-width: 1280px) {
   .modal__main-img-box {
     display: flex;
@@ -240,6 +464,7 @@
     justify-content: center;
   }
 }
+
 .form-login {
   display: flex;
   padding: 16px;
@@ -249,6 +474,7 @@
   border-radius: 10px;
   background-color: var(--defaul-10);
 }
+
 @media screen and (min-width: 744px) {
   .form-login {
     width: 600px;
@@ -256,6 +482,7 @@
     gap: 30px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .form-login {
     width: 520px;
@@ -264,12 +491,14 @@
     border-radius: 20px;
   }
 }
+
 /////FORGOT PASSWORD STYLE/////////
 @media screen and (min-width: 744px) {
   .form-login.forgot-password {
     width: 500px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .form-login.forgot-password {
     width: 520px;
@@ -294,11 +523,13 @@
   flex-direction: column;
   gap: 10px;
 }
+
 @media screen and (min-width: 744px) {
   .form-login__inputs-box {
     gap: 20px;
   }
 }
+
 /////REGISTER STYLE/////////
 @media screen and (min-width: 1280px) {
   .form-login__inputs-box.register {
@@ -311,15 +542,17 @@
   width: 100%;
   position: relative;
 }
+
 @media screen and (min-width: 1280px) {
   .form__input-with-button {
     width: fit-content;
 
-    &.login{
+    &.login {
       width: 100%;
     }
   }
 }
+
 .form__input-button-toggle-password {
   position: absolute;
   right: 20px;
@@ -327,6 +560,7 @@
   transform: translateY(-50%);
   background-color: transparent;
 }
+
 .toggle-password__icon {
   width: 26px;
   height: 26px;
@@ -363,12 +597,14 @@
     border: 1px solid var(--bg-red);
   }
 }
+
 /////REGISTER STYLE/////////
 @media screen and (min-width: 1280px) {
   .form-login__input.register {
     width: 440px;
   }
 }
+
 .form-login__button-forgot-password {
   width: fit-content;
   margin-left: auto;
@@ -380,18 +616,21 @@
     line-height: calc(17.76 / 13);
   }
 }
+
 .form-login__buttons-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 16px;
 }
+
 @media screen and (min-width: 744px) {
   .form-login__buttons-box {
     align-items: center;
     gap: 22px;
   }
 }
+
 .form-login__button-login {
   height: 48px;
 
@@ -401,28 +640,33 @@
     line-height: calc(20.49 / 15);
   }
 }
+
 @media screen and (min-width: 744px) {
   .form-login__button-login {
     width: 440px;
   }
 }
+
 .form-login__text {
   text-align: center;
   font-size: 12px;
   line-height: calc(16.39 / 12);
 }
+
 .form-login__buttons-alternative {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
+
 @media screen and (min-width: 744px) {
   .form-login__buttons-alternative {
     flex-direction: row;
     gap: 20px;
   }
 }
+
 .form-login__buttons-alternative-container {
   height: 48px;
 
@@ -440,6 +684,7 @@
     height: 24px;
   }
 }
+
 @media screen and (min-width: 744px) {
   .form-login__buttons-alternative-container {
     width: 210px;
