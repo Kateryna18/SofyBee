@@ -9,7 +9,20 @@ if (reviewsSwiper) {
     direction: "horizontal",
     loop: true,
     grabCursor: true,
-    
+    // rewind: true,
+    slidesPerView: 1,
+    // spaceBetween: 20,
+    // slidesOffsetBefore: 60,
+    // slidesPerGroup: 1,
+
+    breakpoints: {
+      744: {
+          slidesPerView: 4,
+      },
+      // 1280: {
+      //     slidesPerView: 4,
+      // },
+    },
 
     navigation: {
       nextEl: ".swiper-button-next",
