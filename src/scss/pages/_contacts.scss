@@ -179,11 +179,11 @@
     &::before,
     &::after {
       z-index: -10;
-      width: 1923px;
+      width: 100vw;
       height: 279px;
       left: auto;
-      right: 35px;
-      top: -7px;
+      right: 0;
+      top: 30px;
     }
 
     & .decor-icon1 {
@@ -254,11 +254,10 @@
     &::before,
     &::after {
       z-index: -10;
-      width: 2011px;
       height: 279px;
       left: auto;
-      right: -74px;
-      top: -7px;
+      right: 0;
+      top: -100px;
     }
 
     & .decor-icon1 {

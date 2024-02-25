@@ -55,11 +55,11 @@
 
     &::before,
     &::after {
-      width: 2152px;
+      width: 100vw;
       height: 279px;
-      left: auto;
-      right: -220px;
-      top: -45px;
+      left: 0;
+      right: 0;
+      top: -100px;
     }
 
     &::before {

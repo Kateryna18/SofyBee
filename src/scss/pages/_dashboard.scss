@@ -63,11 +63,11 @@
     &::before,
     &::after {
       z-index: -10;
-      width: 2152px;
+      width: 100vw;
       height: 279px;
       left: auto;
-      right: -220px;
-      top: -7px;
+      right: 0;
+      top: -100px;
     }
   }
 }

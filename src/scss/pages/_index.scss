@@ -315,17 +315,18 @@
 
     &::before,
     &::after {
-      width: 2671px;
-      left: -329px;
-      top: -2px;
+      width: 100vw;
+      left: -750px;
+      right: 0;
+      top: 100px;
     }
 
     &::before {
-      content: url("../img/icons/icons.svg#vector-yellow-s");
+      content: url("../img/icons/icons.svg#vector-yellow-l");
     }
 
     &::after {
-      content: url("../img/icons/icons.svg#vector-orange-s");
+      content: url("../img/icons/icons.svg#vector-orange-l");
     }
   }
 }

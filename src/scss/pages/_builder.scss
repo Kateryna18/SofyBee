@@ -63,7 +63,7 @@
 
     &::before,
     &::after {
-      z-index: -10;
+      z-index: -100;
       width: 1923px;
       height: 279px;
       left: auto;
@@ -76,9 +76,10 @@
   .builder {
     &::before,
     &::after {
-      width: 1912px;
-      right: 150px;
-      top: -25px;
+      width: 100vw;
+      top: -100px;
+      right: 0;
+      left: 0;
     }
 
     
@@ -145,8 +146,18 @@
     margin-bottom: 80px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .order-builder__steps-block {
+    flex: 1;
+  }
+}
 .order-builder__description {
   margin-bottom: 20px;
+}
+@media screen and (min-width: 744px) {
+  .order-builder__description {
+    max-width: 400px;
+  }
 }
 .order-builder__steps {
   display: flex;
@@ -170,6 +181,8 @@
   gap: 20px;
   border-radius: 10px;
   border: 2px solid var(--bg-brown-white-80);
+  background-color: var(--defaul-10);
+  cursor: pointer;
 }
 @media screen and (min-width: 744px) {
   .order-builder__step {
@@ -237,6 +250,7 @@
   border-radius: 75px;
   background: var(--primary-orange);
   transform: rotate(270deg);
+  cursor: pointer;
 }
 .order-builder__button-icon {
   width: 24px;
@@ -287,6 +301,7 @@
   gap: 2px;
   border-radius: 10px;
   background-color: var(--bg-blue-white-50);
+  cursor: pointer;
 
   &.selected{
     background-color: var(--primary-blue);
@@ -358,7 +373,6 @@
   width: 162px;
   height: 328px;
   background-color: transparent;
-  border: 1px solid red;
 
   & .card {
     padding: 0 6px;
@@ -410,6 +424,7 @@
   gap: 20px;
   border-radius: 20px;
   box-shadow: 0px 4px 28px 0px rgba(72, 55, 12, 0.08);
+  background-color: var(--defaul-10);
 }
 @media screen and (min-width: 744px) {
   .order-builder__result {
@@ -470,10 +485,10 @@
   font-size: 12px;
   line-height: calc(16.39 / 12);
   color: var(--primary-blue);
+  white-space: nowrap;
 }
 @media screen and (min-width: 744px) {
   .result-info-position__name {
-    white-space: nowrap;
     font-size: 13px;
   }
 }

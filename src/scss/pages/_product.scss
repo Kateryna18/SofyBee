@@ -56,11 +56,11 @@
 
     &::before,
     &::after {
-      width: 2152px;
+      width: 100vw;
       height: 279px;
       left: auto;
-      right: -220px;
-      top: -45px;
+      right: 0;
+      top: 0;
     }
 
     &::before {
